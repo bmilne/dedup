@@ -1,0 +1,26 @@
+rm "/Volumes/shared/Music/.iTunes Preferences.plist"
+
+rm /Volumes/shared/Music/duplicates
+rm /Volumes/shared/Music/dups
+rm /Volumes/shared/Music/same_hash_removals
+rm /Volumes/shared/Music/similar_name_removals
+
+rm -rf /Volumes/shared/Music/Downloads/
+
+rm -rf "/Volumes/shared/Music/Mobile Applications/"
+rm -rf /Volumes/shared/Music/Movies/
+rm -rf "/Volumes/shared/Music/Voice Memos/"
+
+rm -rf "/Volumes/shared/Music/Original iTunes Purchases/"
+
+
+# Tracks duplicated under Music and Music/Music:
+rm "/Volumes/shared/Music/Music/Scout/It Seemed Like A Good Idea At The Time/01 State Of Main.mp3"
+rm "/Volumes/shared/Music/Music/Patty Griffin/Children Running Through/01 You'll Remember.mp3"
+rm "/Volumes/shared/Music/Music/Paris Combo/Motifs/10 Prête À Porter.mp3"
+rm "/Volumes/shared/Music/Music/Paris Combo/Motifs/09 Reflet.mp3"
+rm "/Volumes/shared/Music/Music/Paris Combo/Motifs/06 Touriste D'une Vie.mp3"
+rm "/Volumes/shared/Music/Music/Paris Combo/Motifs/05 Etoile Pâle.mp3"
+rm "/Volumes/shared/Music/Music/Paris Combo/Motifs/01 High, Low, In.mp3"
+rm "/Volumes/shared/Music/Music/Lone Justice/Shelter/05 Wheels.mp3"
+
