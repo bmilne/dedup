@@ -117,7 +117,34 @@ class Library
       if s.track =~ / [1-9]$/
         base = s.qual_track.sub(/ [1-9]$/,'') + '.' + s.ext
         if contains? base 
-          puts "rm #{qt(s.abs_path)}"
+          puts "rm #{qt(s.qual_fname)}"
+        end
+      end
+    end
+  end
+
+  def cleanup_numbering
+    @songs.each do |s| 
+      next if s.album =~ /Disc/
+      if s.track =~ /^1-/
+        tgt = s.qual_fname.sub('/1-','/')
+        abort if tgt =~ /\/1-/
+        if contains? tgt
+          puts "rm #{qt(s.qual_fname)}"
+        else
+          puts "mv #{qt(s.qual_fname)} #{qt(tgt)}"
+        end
+      end
+    end
+  end
+
+  def handle_mp3s
+    @songs.each do |s| 
+      if s.ext == 'mp3'
+        alac = s.qual_track.sub(/ [1-9]$/,'') + '.m4a'
+        unless contains? alac 
+          puts "mv #{qt(s.qual_fname)} #{qt('../MP3/'+s.qual_fname)}"
+          exit 0
         end
       end
     end
@@ -159,7 +186,9 @@ end
 def process source_list
   library = load_data source_list
   puts "cd #{@@base_dir.join('/')}"
-  library.handle_copies
+  # library.handle_copies
+  library.cleanup_numbering
+  # library.handle_mp3s
 end
 
 process ARGV[0]
