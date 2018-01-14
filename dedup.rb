@@ -159,7 +159,6 @@ end
 def process source_list
   library = load_data source_list
   puts "cd #{@@base_dir.join('/')}"
-  puts "rm -rf Podcasts/"
   library.handle_copies
 end
 
