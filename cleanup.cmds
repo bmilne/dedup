@@ -9,6 +9,7 @@ rm -rf /Volumes/shared/Music/Downloads/
 
 rm -rf "/Volumes/shared/Music/Mobile Applications/"
 rm -rf /Volumes/shared/Music/Movies/
+rm -rf /Volumes/shared/Music/Podcasts/
 rm -rf "/Volumes/shared/Music/Voice Memos/"
 
 rm -rf "/Volumes/shared/Music/Original iTunes Purchases/"
