@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require "set"
+
 def file_and_ext f
  # note, some track names contain dots
   t = f.split('.')
@@ -138,6 +140,50 @@ class Library
     end
   end
 
+  # Search for multi-disc sets and combine into shared album directory
+  def combine_sets
+
+    md_set_regex = /[,_]?\s?[\[\(]?Disc\s+([1-9])[\]\)]?/
+    md_set_latin_regex = /\s[\[\(](I+)[\]\)]/     # [I] [II]
+    bd_regex = / \[Bonus Disc\]$/
+
+    cmds = SortedSet.new();
+    
+    @songs.each do |s| 
+      tgt = nil
+      track_tgt = nil
+      if s.album =~ md_set_regex
+        tgt = s.album.sub(md_set_regex,'')
+        id = md_set_regex.match(s.album)[1]
+      elsif s.album =~ md_set_latin_regex
+        tgt = s.album.sub(md_set_latin_regex,'')
+        id = md_set_latin_regex.match(s.album)[1].length.to_s
+      elsif s.album =~ bd_regex  #  23rs Street Lullaby [Bonus Disc]
+        tgt = s.album.sub(bd_regex,'')
+        id = 'Bonus'
+      end
+      unless tgt.nil?
+        # check track numbering against Disk Number from Album
+        m = /^([a-z0-9]+)-([0-9]+.*)$/.match(s.track)
+        if m
+          if m[1] != id
+            track_tgt = "#{id}-#{m[2]}"
+          else
+            track_tgt = nil
+          end
+        else
+          track_tgt = "#{id}-#{s.track}"
+        end
+
+        track_tgt ||= s.track
+        qtgt = "#{s.artist}/#{tgt}/#{track_tgt}.#{s.ext}"
+        cmds.add "mkdir -p  #{qt(s.artist+'/'+tgt)}"
+        cmds.add "mv #{qt(s.qual_fname)} #{qt(qtgt)}"
+      end
+    end
+    cmds.each {|a| puts a}
+  end
+
   def handle_mp3s
     @songs.each do |s| 
       if s.ext == 'mp3'
@@ -187,7 +233,8 @@ def process source_list
   library = load_data source_list
   puts "cd #{@@base_dir.join('/')}"
   # library.handle_copies
-  library.cleanup_numbering
+  # library.cleanup_numbering
+  library.combine_sets
   # library.handle_mp3s
 end
 
