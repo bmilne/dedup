@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
 
 require "set"
 
@@ -18,7 +19,7 @@ def parenthetical_with a
   Regexp.new( '[\(\[][^)\]]*(' + a.join('|') + ')[^)\]]*[)\]]', 'i')
 end
 
-def underscore_infer s is_track
+def underscore_infer(s, is_track=false)
   s = s.gsub(160.chr('UTF-8'), ' ')  # replace &nbsp; with space
 
   s = s.gsub(8226.chr('UTF-8'), '-')  # replace &bullet; with dash
@@ -77,7 +78,7 @@ class Song
     @track, @ext = file_and_ext path.pop
     @path = path
   end  
-  
+
   def artist
     @path[0]
   end
@@ -105,11 +106,15 @@ class Song
   end  
 
   def abs_path
-    ([@@base_dir] + @path + [fname]).join("/")
+    ([$base_dir] + @path + [fname]).join("/")
   end 
 
   def qual_track
     (@path + [track]).join("/")
+  end
+
+  def chg_artist tgt
+    Song.new [tgt, album, fname]
   end
 
   def <=> (other)
@@ -262,84 +267,122 @@ class Library
     cmds.each {|a| puts a}
   end
 
-rename_artists = {
-'Bach_PierreFournier' => 'Bach_PierreFournier',
-'Billy Bragg and Wilco' => 'Billy Bragg & Wilco',
-'Blake Shelton & Dia Frampton' => 'Dia Frampton',
-'Daria Hovora, Mischa Maisky & Orpheus Chamber Orchestra' => 'Orpheus Chamber Orchestra',
-'Dennis Keene_ Voices Of Ascension' => 'Voices Of Ascension',
-'Emma Kirkby; Christopher Page_ Gothic Voices' => 'Gothic Voices',
-'Eyck, Jakob van (1590-1657)' => 'Eyck, Jakob van (1590-1657)',
-'Fritz Reiner_ Chicago Symphony Orchestra' => 'Fritz Reiner_ Chicago Symphony Orchestra',
-'Gustavo Dudamel_ Simón Bolívar Youth Orchestra of Venezuela' => 'Dudamel, Youth Orchestra of Venezuela',
-'Iron and Wine' => 'Iron & Wine',
-'Israel Kamakawiwo`ole' => 'Israel Kamakawiwo\'ole',
-'Jennifer S. Paul, Harpsichord' => 'Jennifer S. Paul',
-'Jeremy Summerly_ Oxford Camerata' => 'Oxford Camerata',
-'Joshua Rifkin_ The Bach Ensemble' => 'The Bach Ensemble',
-'Karl Dent; Robert Shaw_ Robert Shaw Festival Singers' => 'Robert Shaw Festival Singers',
-'Katia & Marielle Labeque' => 'Katia & Marielle Labèque',
-'Klaus Tennstedt_ Berlin Philharmonic Orchestra' => 'Berlin Philharmonic Orchestra',
-'Le Poème Harmonique _ Vincent Dumestre' => 'Le Poème Harmonique',
-'Marcel Pérès_ Ensemble Organum' => 'Ensemble Organum',
-'Monteverdi Choir, English Baroque Soloists, John Eliot Gardiner & Various Artists' => 'Monteverdi Choir, English Baroque Soloists',
-'Neville Marriner_ Academy Of St. Martin In The Fields' => 'Academy Of St. Martin In The Fields',
-'Peter Hurford; Charles Dutoit_ Montreal Symphony Orchestra' => 'Montreal Symphony Orchestra',
-'Peter Phillips_ The Tallis Scholars' => 'Tallis Scholars',
-'Philippe Herreweghe_ Ensemble Vocal Européen De La Chapelle Royale' => 'Ensemble Vocal Européen',
-'Philippe Herreweghe_ Ensemble Vocal Européen, Ensemble Organum' => 'Ensemble Vocal Européen',
-'Robin Johannsen, Mari Eriksmoen, Etc.; René Jacobs_ Akademie Für Alte Musik Berlin, RIAS Chamber Choir' => 'Robin Johannsen, Mari Eriksmoen, Etc.; René Jacobs_ Akademie Für Alte Musik Berlin, RIAS Chamber Choir',
-'Sawyer' => 'Sawyer Fredericks',
-'Stefano Sabene, Dir_ Schola Romana Ensemble, Orig. Instrts' => 'Schola Romana Ensemble',
-'Vincent Dumestre_ Le Poème Harmonique' => 'Le Poème Harmonique',
-}
 
-** The Audreys
-** The Be Good Tanyas
-
-truncate_artists_at = [
-'Academy Award Winners, The Pacific _Pops_ Orchestra',
-'Alban Berg Quartet',
-'Alison Krauss',
-'Beau Jocque',
-'Ben Harper',
-'Berliner Philharmoniker',
-'Callas',
-'Cecilia Bartoli',
-'Chip Taylor',
-'Choeur des moines de l\'Abbaye Saint-Pierre de Solesmes',
-'David Murray',
-'Gabrieli Consort',
-'Giovanni Pierluigi da Palestrina',
-'Glenn Gould',
-'Itzhak Perlman',
-'Jan Garbarek',
-'Jason Isbell',
-'Jenny Lewis',
-'Joseph Curiale',
-'Kelly Hogan',
-'Lloyd Cole',
-'Louis Armstrong',
-'Luciano Pavarotti, Cecilia Bartoli',
-'Ludwig van Beethoven',
-'Miley Cyrus',
-'Mstislav Rostropovich',
-'Neko Case',
-'Orlando Consort',
-'Peter Malick Group',
-'Prince',
-'Sawyer Fredericks',
-'Steve Earle',
-'Ted Leo',
-'Tom Petty',
-'Various Artists',
-'Yo-Yo Ma' & Bobby McFerrin,
-'k.d. lang',
-]
+  def cleanup_track_names
+    @songs.each do |s| 
+      tgt = underscore_infer(s.track, true)
+      if (tgt != s.track)
+        puts "mv #{qt(s.qual_fname)} #{qt(s.qual_album)}/#{tgt}.#{s.ext}"
+      end
+    end
+  end
 
   def cleanup_artist_names
+    rename_artists = {
+      'Bach_PierreFournier' => 'Bach: Pierre Fournier',
+      'Billy Bragg and Wilco' => 'Billy Bragg & Wilco',
+      'Blake Shelton & Dia Frampton' => 'Dia Frampton',
+      'Daria Hovora, Mischa Maisky & Orpheus Chamber Orchestra' => 'Orpheus Chamber Orchestra',
+      'Dennis Keene_ Voices Of Ascension' => 'Voices Of Ascension',
+      'Emma Kirkby; Christopher Page_ Gothic Voices' => 'Gothic Voices',
+      'Eyck, Jakob van (1590-1657)' => 'Jakob van Eyck',
+      'Fritz Reiner_ Chicago Symphony Orchestra' => 'Fritz Reiner_ Chicago Symphony Orchestra',
+      'Gustavo Dudamel_ Simón Bolívar Youth Orchestra of Venezuela' => 'Dudamel, Youth Orchestra of Venezuela',
+      'Iron and Wine' => 'Iron & Wine',
+      'Israel Kamakawiwo`ole' => 'Israel Kamakawiwo\'ole',
+      'Jennifer S. Paul, Harpsichord' => 'Jennifer S. Paul',
+      'Jeremy Summerly_ Oxford Camerata' => 'Oxford Camerata',
+      'Joshua Rifkin_ The Bach Ensemble' => 'The Bach Ensemble',
+      'Karl Dent; Robert Shaw_ Robert Shaw Festival Singers' => 'Robert Shaw Festival Singers',
+      'Katia & Marielle Labeque' => 'Katia & Marielle Labèque',
+      'Klaus Tennstedt_ Berlin Philharmonic Orchestra' => 'Berlin Philharmonic Orchestra',
+      'Le Poème Harmonique _ Vincent Dumestre' => 'Le Poème Harmonique',
+      'Marcel Pérès_ Ensemble Organum' => 'Ensemble Organum',
+      'Monteverdi Choir, English Baroque Soloists, John Eliot Gardiner & Various Artists' =>
+        'Monteverdi Choir, English Baroque Soloists',
+      'Neville Marriner_ Academy Of St. Martin In The Fields' => 'Academy Of St. Martin In The Fields',
+      'Peter Hurford; Charles Dutoit_ Montreal Symphony Orchestra' => 'Montreal Symphony Orchestra',
+      'Peter Phillips_ The Tallis Scholars' => 'Tallis Scholars',
+      'Philippe Herreweghe_ Ensemble Vocal Européen De La Chapelle Royale' => 'Ensemble Vocal Européen',
+      'Philippe Herreweghe_ Ensemble Vocal Européen, Ensemble Organum' => 'Ensemble Vocal Européen',
+      'Robin Johannsen, Mari Eriksmoen, Etc.; René Jacobs_ Akademie Für Alte Musik Berlin, RIAS Chamber Choir' =>
+        'Robin Johannsen, Mari Eriksmoen',
+      'Sawyer' => 'Sawyer Fredericks',
+      'Stefano Sabene, Dir_ Schola Romana Ensemble, Orig. Instrts' => 'Schola Romana Ensemble',
+      'Vincent Dumestre_ Le Poème Harmonique' => 'Le Poème Harmonique',
+    }
+
+    truncate_artists_at = [
+                           'Academy Award Winners, The Pacific _Pops_ Orchestra',
+                           'Alban Berg Quartet',
+                           'Alison Krauss',
+                           'Beau Jocque',
+                           'Ben Harper',
+                           'Berliner Philharmoniker',
+                           'Callas',
+                           'Cecilia Bartoli',
+                           'Chip Taylor',
+                           'Choeur des moines de l\'Abbaye Saint-Pierre de Solesmes',
+                           'David Murray',
+                           'Gabrieli Consort',
+                           'Giovanni Pierluigi da Palestrina',
+                           'Glenn Gould',
+                           'Itzhak Perlman',
+                           'Jan Garbarek',
+                           'Jason Isbell',
+                           'Jenny Lewis',
+                           'Joseph Curiale',
+                           'Kelly Hogan',
+                           'Lloyd Cole',
+                           'Louis Armstrong',
+                           'Luciano Pavarotti, Cecilia Bartoli',
+                           'Ludwig van Beethoven',
+                           'Miley Cyrus',
+                           'Mstislav Rostropovich',
+                           'Neko Case',
+                           'Orlando Consort',
+                           'Peter Malick Group',
+                           'Prince',
+                           'Sawyer Fredericks',
+                           'Steve Earle',
+                           'Ted Leo',
+                           'Tom Petty',
+                           'Various Artists',
+                           'Yo-Yo Ma',
+                           'k.d. lang',
+                          ]
+
+    cmds = SortedSet.new
     @artist_names.each do |n| 
+      tgt = nil;
+      if (n=~ /^The /)
+        tgt = n.sub(/^The /,'')
+      elsif rename_artists[n]!=nil
+        tgt = rename_artists[n]
+      end
+      if tgt.nil?
+        truncate_artists_at.each do |a|
+          if n.length>a.length && n.start_with?(a)
+            tgt = a
+          end
+        end
+      end
+      if tgt.nil?
+        n2 = underscore_infer n
+        tgt = n2 if n2!=n
+      else
+        tgt = underscore_infer tgt
+      end
+      unless tgt.nil?
+        x = matches n
+        x.each do |s|
+          s2 = s.chg_artist(tgt)
+          cmds.add "mkdir -p  #{qt(s2.qual_album)}"
+          cmds.add "mv #{qt(s.qual_fname)} #{qt(s2.qual_fname)}"
+        end
+      end
     end
+    cmds.each {|a| puts a}
   end
 
   def cleanup_naming
@@ -436,7 +479,8 @@ def process source_list
   # library.handle_copies
   # library.cleanup_numbering
   # library.combine_sets
-  library.cleanup_naming
+  library.cleanup_track_names
+  # library.cleanup_artist_names
   # library.handle_mp3s
 end
 
