@@ -4,7 +4,7 @@ rm -rf '/Volumes/shared/Music/iTunes U/'
 rm -rf '/Volumes/shared/Music/TV Shows/'
 
 mkdir -p '/Volumes/shared/Music/Health Journey/'
-mv '' '/Volumes/shared/Music/Unknown Artist/Health Journey Anxiety/' '/Volumes/shared/Music/Health Journey/Health Journey Anxiety/'
+mv '/Volumes/shared/Music/Unknown Artist/Health Journey Anxiety/' '/Volumes/shared/Music/Health Journey/Health Journey Anxiety/'
 
 rm -rf '/Volumes/shared/Music/Unknown Artist/Unknown Album/'
 
