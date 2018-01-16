@@ -1,0 +1,32 @@
+# Ran this at the files3.txt stage... after box set processing
+
+rm -rf '/Volumes/shared/Music/iTunes U/'
+rm -rf '/Volumes/shared/Music/TV Shows/'
+
+mkdir -p '/Volumes/shared/Music/Health Journey/'
+mv '' '/Volumes/shared/Music/Unknown Artist/Health Journey Anxiety/' '/Volumes/shared/Music/Health Journey/Health Journey Anxiety/'
+
+rm -rf '/Volumes/shared/Music/Unknown Artist/Unknown Album/'
+
+rm -rf '/Volumes/shared/Music/Compilations/The Japanese Album/'  # also under .../Various Artists
+
+rm -rf '/Volumes/shared/Music/Hogan, Kelly & The Pine Valley Cosmonauts/'  # also under "Kelly Hogan"...
+
+rm -rf '/Volumes/shared/Music/The Dufay Collective/'  # all contents also present under ..."/Dufay Collective/"
+
+# more dups:
+rm -rf '/Volumes/shared/Music/Compilations/Great Pianists of the 20th Century/'
+rm -rf '/Volumes/shared/Music/Compilations/Cat Stevens_ Greatest Hits/'
+rm -rf '/Volumes/shared/Music/The Rolling Stones/Hot Rocks, 1964-1971/'
+rm -rf '/Volumes/shared/Music/Green Day/Kerplunk!/'
+rm -rf '/Volumes/shared/Music/Miles Davis/Kind Of Blue/'
+rm -rf '/Volumes/shared/Music/Compilations/Lilith Fair - A Celebration Of Women In Music/'
+rm -rf '/Volumes/shared/Music/Stile Antico/Music for Compline - Tallis, Byrd, Sheppard/'
+rm -rf '/Volumes/shared/Music/Compilations/O Brother, Where Art Thou_ (Music from the Motion Picture)/'
+
+find /Volumes/shared/Music -name '*.m4v' -delete
+
+find /Volumes/shared/Music -type d -empty -delete
+
+mv '/Volumes/shared/Music/Compilations/Complete Greatest Hits' '/Volumes/shared/Music/Cars/Complete Greatest Hits'
+

@@ -14,6 +14,61 @@ def qt s
   "'" + s.gsub("'","'\\\\''") + "'"
 end
 
+def parenthetical_with a
+  Regexp.new( '[\(\[][^)\]]*(' + a.join('|') + ')[^)\]]*[)\]]', 'i')
+end
+
+def underscore_infer s is_track
+  s = s.gsub(160.chr('UTF-8'), ' ')  # replace &nbsp; with space
+
+  s = s.gsub(8226.chr('UTF-8'), '-')  # replace &bullet; with dash
+
+  s = s.gsub(parenthetical_with(%w(Soundtrack Movie Motion)), '(Soundtrack)') # (Original Motion Picture Soundtrack) --> (Soundtrack)
+  
+  s = s.gsub(parenthetical_with(%w(Live)), '(Live)') unless is_track
+  s = s.gsub(parenthetical_with(%w(Bonus Deluxe Remastered Special Edition Version)), '') unless is_track # strip (Special Version) etc.
+
+  s = s.gsub(parenthetical_with(%w(The Voice)), '- The Voice -') # (The Voice Performance) etc.
+
+  s = s.gsub(/\b_(\B[^_]*(\B|[!.]))_(\b|_)/, '\1\3')  # strip underscores surrounding word or phrase (e.g. _Jupiter_ ; _The Planets_)
+  s = s.gsub('I_II', 'I&II')
+  s = s.gsub(/\B_(d|m|s|t|re)\b/i, '\'\1')  # replace underscores placeholding contractions (e.g. I_m --> I'm)
+  s = s.gsub(/(cryin)_\b/i, '\1\'')  # replace underscores placeholding contractions (e.g. cryin_ --> cryin')
+  s = s.gsub(/\bl_\B/i, 'l\'')  # replace underscores placeholding l'...
+  s = s.gsub(/\bd_\B/i, 'l\'')  # replace underscores placeholding d'...
+  s = s.gsub(/([0-9])_([0-9])/, '\1:\2')  # replace underscores between numerals with : (e.g. 3_11 --> 3:11)
+  s = s.sub(/_+\s*$/, '')  # strip trailing underscores
+  s = s.sub(/^\s*_+/, '')  # strip leading underscores
+  s = s.gsub(/^(([0-9]-)?[0-9]+\s*)_+/, '\1 ')  # strip leading underscores, accounting for track numbering scheme
+  s = s.gsub(/([,;.!\)\]\(\[]\s*)_+(\s*)/, '\1\2')  # strip leading underscores within phrases and parentheticals
+  s = s.gsub(/_+\s*([,;.!\)\]\(\[])/, '\1')  # strip trailing underscores within phrases and parentheticals
+
+  s = s.gsub(/\B\s?_\s+\b/, ' - ')  # turn word-follwing underscores into dashes, e.g. Bach_ Blah --> Bach - Blah
+  s = s.gsub(/(__+)/) {|m| '*'*m.length } # turn repeated underscores into repeated asterisks e.g. f__k --> f**k
+
+  s = s.gsub(/_([0-9])/,'-\1')  # replace underscores preceeding numerals with dashes, e.g. IIb_7 --> IIb-7
+
+  s = s.gsub(/_+/, ' - ')  # turn any onther underscores into space-padded dashes
+
+  s = s.gsub(/-\s*-[\-\s]*/, ' - ')  # collapse multiple dashes (and any whitespce) to single dash
+  s = s.gsub(/-\s*$/, '')  # strip trailing dashes
+
+  s = s.gsub(/\s+/, ' ')  # collapse whitespace
+
+  return s
+end
+
+def xx s
+  s2 = underscore_infer s
+  if s != s2
+    special_chars = (s.each_char.map {|c| c.ord}).select {|ord| ord<32 || ord>128}
+    puts s
+    puts ("  special chars: " + special_chars.to_s) if special_chars.length>0
+    puts ("  " + s2)
+
+  end
+end
+
 class Song
   attr_accessor :track
   attr_accessor :ext
@@ -45,6 +100,10 @@ class Song
     (@path + [fname]).join("/")
   end  
 
+  def qual_album
+    (@path).join("/")
+  end  
+
   def abs_path
     ([@@base_dir] + @path + [fname]).join("/")
   end 
@@ -69,7 +128,21 @@ class Library
     @artist_hash = {}
     @album_hash = {}
     @track_hash = {}
+    @artist_names = SortedSet.new
+    @album_names = SortedSet.new
+    @extensions = SortedSet.new
   end
+  # Expected file types (extensions) in library.. Audio types:
+  # m4a: Lossless - ALAC
+  # m4b: Audio Books: m4a + indexing
+  # m4p: Apple Lossy w/ DRM Playback Protection - iTunes only
+  # mp3: Lossy
+  # mp4: Lossy - AAC
+  # Non audio types:
+  # m4v: Video (Apple format) # these get cleaned up / removed
+  # mov: Video # these get cleaned up / removed
+  # pdf: documents
+
   def add s
     index = @songs.length
     @songs.push(s)
@@ -85,6 +158,10 @@ class Library
     key = [s.artist, s.album, s.track].join('/')
     @track_hash[key] ||= []
     @track_hash[key].push index
+
+    @artist_names.add s.artist
+    @album_names.add s.album
+    @extensions.add s.ext
   end
 
   def matches p
@@ -125,6 +202,7 @@ class Library
     end
   end
 
+  # As a prelude to the combine_sets command below, remove any 1-xx track prefixing from non-box-set disks
   def cleanup_numbering
     @songs.each do |s| 
       next if s.album =~ /Disc/
@@ -184,6 +262,129 @@ class Library
     cmds.each {|a| puts a}
   end
 
+'Bach_PierreFournier' => 'Bach_PierreFournier',
+'Billy Bragg and Wilco' => 'Billy Bragg & Wilco',
+'Blake Shelton & Dia Frampton' => 'Dia Frampton',
+'Daria Hovora, Mischa Maisky & Orpheus Chamber Orchestra' => 'Orpheus Chamber Orchestra',
+'Dennis Keene_ Voices Of Ascension' => 'Voices Of Ascension',
+'Emma Kirkby; Christopher Page_ Gothic Voices' => 'Gothic Voices',
+'Eyck, Jakob van (1590-1657)' => 'Eyck, Jakob van (1590-1657)',
+'Fritz Reiner_ Chicago Symphony Orchestra' => 'Fritz Reiner_ Chicago Symphony Orchestra',
+'Gustavo Dudamel_ Simón Bolívar Youth Orchestra of Venezuela' => 'Gustavo Dudamel_ Simón Bolívar Youth Orchestra of Venezuela',
+'Iron & Wine' => 'Iron & Wine',
+'Iron and Wine' => 'Iron and Wine',
+'Israel Kamakawiwo`ole' => 'Israel Kamakawiwo`ole',
+'Jennifer S. Paul, Harpsichord' => 'Jennifer S. Paul, Harpsichord',
+'Jeremy Summerly_ Oxford Camerata' => 'Jeremy Summerly_ Oxford Camerata',
+'Joshua Rifkin_ The Bach Ensemble' => 'Joshua Rifkin_ The Bach Ensemble',
+'Karl Dent; Robert Shaw_ Robert Shaw Festival Singers' => 'Karl Dent; Robert Shaw_ Robert Shaw Festival Singers',
+'Katia & Marielle Labeque' => 'Katia & Marielle Labeque',
+'Katia & Marielle Labèque' => 'Katia & Marielle Labèque',
+'Klaus Tennstedt_ Berlin Philharmonic Orchestra' => 'Klaus Tennstedt_ Berlin Philharmonic Orchestra',
+'Le Poème Harmonique _ Vincent Dumestre' => 'Le Poème Harmonique _ Vincent Dumestre',
+'Marcel Pérès_ Ensemble Organum' => 'Marcel Pérès_ Ensemble Organum',
+'Monteverdi Choir, English Baroque Soloists, John Eliot Gardiner & Various Artists' => 'Monteverdi Choir, English Baroque Soloists, John Eliot Gardiner & Various Artists',
+'Neville Marriner_ Academy Of St. Martin In The Fields' => 'Neville Marriner_ Academy Of St. Martin In The Fields',
+'Peter Hurford; Charles Dutoit_ Montreal Symphony Orchestra' => 'Peter Hurford; Charles Dutoit_ Montreal Symphony Orchestra',
+'Peter Phillips_ The Tallis Scholars' => 'Peter Phillips_ The Tallis Scholars',
+'Philippe Herreweghe_ Ensemble Vocal Européen De La Chapelle Royale' => 'Philippe Herreweghe_ Ensemble Vocal Européen De La Chapelle Royale',
+'Philippe Herreweghe_ Ensemble Vocal Européen, Ensemble Organum' => 'Philippe Herreweghe_ Ensemble Vocal Européen, Ensemble Organum',
+'Robin Johannsen, Mari Eriksmoen, Etc.; René Jacobs_ Akademie Für Alte Musik Berlin, RIAS Chamber Choir' => 'Robin Johannsen, Mari Eriksmoen, Etc.; René Jacobs_ Akademie Für Alte Musik Berlin, RIAS Chamber Choir',
+'Sawyer' => 'Sawyer',
+'Stefano Sabene, Dir_ Schola Romana Ensemble, Orig. Instrts' => 'Stefano Sabene, Dir_ Schola Romana Ensemble, Orig. Instrts',
+'Vincent Dumestre_ Le Poème Harmonique' => 'Vincent Dumestre_ Le Poème Harmonique',
+
+** The Audreys
+** The Be Good Tanyas
+
+truncate_artists_at = [
+'Academy Award Winners, The Pacific _Pops_ Orchestra',
+'Alban Berg Quartet',
+'Alison Krauss',
+'Beau Jocque',
+'Ben Harper',
+'Berliner Philharmoniker',
+'Callas',
+'Cecilia Bartoli',
+'Chip Taylor',
+'Choeur des moines de l\'Abbaye Saint-Pierre de Solesmes',
+'David Murray',
+'Gabrieli Consort',
+'Giovanni Pierluigi da Palestrina',
+'Glenn Gould',
+'Itzhak Perlman',
+'Jan Garbarek',
+'Jason Isbell',
+'Jenny Lewis',
+'Joseph Curiale',
+'Kelly Hogan',
+'Lloyd Cole',
+'Louis Armstrong',
+'Luciano Pavarotti, Cecilia Bartoli',
+'Ludwig van Beethoven',
+'Miley Cyrus',
+'Mstislav Rostropovich',
+'Neko Case',
+'Orlando Consort',
+'Peter Malick Group',
+'Prince',
+'Sawyer Fredericks',
+'Steve Earle',
+'Ted Leo',
+'Tom Petty',
+'Various Artists',
+'Yo-Yo Ma' & Bobby McFerrin,
+'k.d. lang',
+]
+
+  def cleanup_artist_names
+    @artist_names.each do |n| 
+    end
+  end
+
+  def cleanup_naming
+    prev = ''
+    @album_names.each do |n| 
+      note = ''
+      note = '** ' if prev[0...8]==n[0...8]
+      puts "#{note}#{n}"
+      prev = n
+    end
+    exit
+
+
+    # 1. rename tracks (Note - sequence matters... do this before moving albums, artists)
+    # HMM... no, these need to be done in passes over the library and re-inits...
+
+    @songs.each do |s| 
+      tgt = underscore_infer s.track
+      if tgt != s.track
+        cmds.add "mv #{qt(s.qual_fname)} #{qt(s.qual_album + '/' + tgt + '.' + s.extension)}"
+        puts 
+      end
+    end
+
+    # 2. rename albums
+
+    # 3. rename artists
+    
+    prev = ''
+    @artist_names.each do |n| 
+      note = ''
+      note = '** ' if prev[0...9]==n[0...9]
+      note = '** ' if n =~ /(&|\band\b)/i
+      puts "#{note}#{n}"
+      prev = n
+    end
+    exit
+    @artist_names.each {|n| xx n}
+    @album_names.each {|n| xx n}
+    @songs.each {|s| xx s.track}
+    # @extensions.each {|n| puts n}
+    @songs.each do |s| 
+    end
+  end
+
   def handle_mp3s
     @songs.each do |s| 
       if s.ext == 'mp3'
@@ -213,7 +414,7 @@ def load_data fname
   end
   @data = @data.map { |p| p.drop(common.length) }
 
-  @@base_dir = common
+  $base_dir = common
 
   # lib = @data.map { |p| Song.new(p) }
   lib = Library.new
@@ -223,7 +424,7 @@ def load_data fname
   # lib.each { |s| puts s.qual_fname if depths[s.depth]==0; depths[s.depth]+=1 }
   # p depths
 
-  # puts "base_dir = #{@@base_dir.join('/')}"
+  # puts "base_dir = #{$base_dir.join('/')}"
   # p lib.matches('10,000 Maniacs/In My Tribe')
 
   return lib
@@ -231,10 +432,11 @@ end
 
 def process source_list
   library = load_data source_list
-  puts "cd #{@@base_dir.join('/')}"
+  puts "cd #{$base_dir.join('/')}"
   # library.handle_copies
   # library.cleanup_numbering
-  library.combine_sets
+  # library.combine_sets
+  library.cleanup_naming
   # library.handle_mp3s
 end
 
