@@ -113,6 +113,10 @@ class Song
     (@path + [track]).join("/")
   end
 
+  def chg_album tgt
+    Song.new [artist, tgt, fname]
+  end
+
   def chg_artist tgt
     Song.new [tgt, album, fname]
   end
@@ -272,9 +276,35 @@ class Library
     @songs.each do |s| 
       tgt = underscore_infer(s.track, true)
       if (tgt != s.track)
-        puts "mv #{qt(s.qual_fname)} #{qt(s.qual_album)}/#{tgt}.#{s.ext}"
+        qtgt = "#{s.qual_album}/#{tgt}.#{s.ext}"
+        puts "mv #{qt(s.qual_fname)} #{qt(qtgt)}"
       end
     end
+  end
+
+  def cleanup_album_names
+    cmds = SortedSet.new
+    @songs.each do |s| 
+      tgt = underscore_infer s.album
+      if (tgt != s.album)
+        qtgt = "#{s.artist}/#{tgt}/#{s.fname}"
+        x = matches qtgt
+        exists = false
+        x.each do |s2|   
+          exists = true  if s.ext == s2.ext
+          # p qtgt
+          # puts "exists"
+          # p s2
+        end
+        if exists
+          cmds.add "rm #{qt(s.qual_fname)}"
+        else
+          cmds.add "mkdir -p  #{qt(s.artist+'/'+tgt)}"
+          cmds.add "mv #{qt(s.qual_fname)} #{qt(qtgt)}"
+        end
+      end
+    end
+    cmds.each {|a| puts a}
   end
 
   def cleanup_artist_names
@@ -377,8 +407,18 @@ class Library
         x = matches n
         x.each do |s|
           s2 = s.chg_artist(tgt)
-          cmds.add "mkdir -p  #{qt(s2.qual_album)}"
-          cmds.add "mv #{qt(s.qual_fname)} #{qt(s2.qual_fname)}"
+
+          x2 = matches s2.qual_track
+          exists = false
+          x2.each do |s3| 
+            exists = true  if s.ext == s3.ext
+          end
+          if exists
+            cmds.add "rm #{qt(s2.qual_fname)}"
+          else
+            cmds.add "mkdir -p  #{qt(s2.qual_album)}"
+            cmds.add "mv #{qt(s.qual_fname)} #{qt(s2.qual_fname)}"
+          end
         end
       end
     end
@@ -428,16 +468,24 @@ class Library
     end
   end
 
+  # move any mp3's that are encoded as lossless (m4a) to a parallel dir, ../MP3/
+  # and move any m4p's (regardless of whether matched) to ../M4P/ 
   def handle_mp3s
+    cmds = SortedSet.new
+
     @songs.each do |s| 
       if s.ext == 'mp3'
         alac = s.qual_track.sub(/ [1-9]$/,'') + '.m4a'
-        unless contains? alac 
-          puts "mv #{qt(s.qual_fname)} #{qt('../MP3/'+s.qual_fname)}"
-          exit 0
+        if contains? alac 
+          cmds.add "mkdir -p  #{qt('../MP3/'+s.qual_album)}"
+          cmds.add "mv #{qt(s.qual_fname)} #{qt('../MP3/'+s.qual_fname)}"
         end
+      elsif s.ext == 'm4p'
+        cmds.add "mkdir -p  #{qt('../M4P/'+s.qual_album)}"
+        cmds.add "mv #{qt(s.qual_fname)} #{qt('../M4P/'+s.qual_fname)}"
       end
     end
+    cmds.each {|a| puts a}
   end
 
 end
@@ -479,9 +527,10 @@ def process source_list
   # library.handle_copies
   # library.cleanup_numbering
   # library.combine_sets
-  library.cleanup_track_names
+  # library.cleanup_track_names
+  # library.cleanup_album_names
   # library.cleanup_artist_names
-  # library.handle_mp3s
+  library.handle_mp3s
 end
 
 process ARGV[0]
