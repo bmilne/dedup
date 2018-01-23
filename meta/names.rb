@@ -25,8 +25,9 @@ carried_tags = {}
 File.readlines(fname).each do |line|
   if line =~ /^\s*(#+)(.*)$/
     if line =~/^\s*#([a-zA-Z_]+)\s*:\s*(.*)$/
-      # puts "#{$1} --> #{$2}"
-      carried_tags[$1] = $2
+      k = $1
+      v = $2
+      carried_tags[k] = v  unless k=='Description'
     end
   elsif line =~ /^\s*$/
     #
