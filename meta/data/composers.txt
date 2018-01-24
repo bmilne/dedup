@@ -1,269 +1,10 @@
-#Burgundian Composers
-#Description: The Burgundian School was a group of composers active in the 15th century in what is now northern and eastern France, Belgium, and the Netherlands, centered on the court of the Dukes of Burgundy. The school also included some English composers at the time when part of modern France was controlled by England. The Burgundian School was the first phase of activity of the Franco-Flemish School, the central musical practice of the Renaissance in Europe.
-Johannes Tapissier (c.1370–c.1410)
-Guillaume Dufay (?1397–1474)
-Jean Cousin (b. before 1425, d. after 1475)
-Hugo de Lantins (fl. c.1430)
-Arnold de Lantins (fl. c.1430)
-Johannes Legrant fl. c. 1420-1440
-Guillaume Legrant fl. 1405-1449
-Reginaldus Libert (fl. c.1425–1435)
-Gilles Binchois (c.1400–1460)
-Johannes Brassart (c.1400–1455)
-Hayne van Ghizeghem (c.1445–c.1480)
-Pierre Fontaine (c.1380 - c.1450)
-Nicolas Grenon (c. 1375–1456)
-Gilles Joye (1424/1425–1483)
-Robert Morton (c.1430–c.1479)
-Antoine Busnois (c.1430–1492)
-Guillaume le Rouge (fl. 1450–1465)
-Adrien Basin (fl. 1457–1476)
-Jacobus Vide (fl. 1405–1433)
-
-#from: http://artquiz.sourceforge.net/cquiz/composers.php
-Pérotin	     12th c.-13th c.	FRA	Medieval, Notre Dame school
-Guillaume de Machaut	1300-1377	FRA	Medieval, Ars nova
-Guillaume Dufay	1400-1474	FRA	Renaissance, Burgundian School
-Josquin Desprez	c.1450-1521	FRA/FLM	Renaissance, Franco-Flemish School III
-Thomas Tallis	ca. 1505-1585	ENG	Renaissance,
-Giovanni Pierluigi da Palestrina	ca. 1525-1594	ITA	Renaissance, Roman School
-Orlande de Lassus	1532-1594	FLM	Renaissance, Franco-Flemish School V
-William Byrd	1543-1623	ENG	Renaissance,
-Giovanni Gabrieli	ca. 1554-1612	ITA	Baroque, Venetian School
-Carlo Gesualdo	1561-1613	ITA	Renaissance
-John Dowland	1563-1626	ENG	Renaissance
-Claudio Monteverdi	1567-1643	ITA	Baroque, Venetian School
-Michael Praetorius	1571-1621	DEU	Baroque
-Orlando Gibbons	1583-1625	ENG	Baroque
-Heinrich Schutz	1585-1672	DEU	Baroque
-Jean-Baptiste Lully	1632-1687	FRA	Baroque
-Dietrich Buxtehude	ca. 1637-1707	DNK/DEU	Baroque
-Arcangelo Corelli	1653-1713	ITA	Baroque
-Johann Pachelbel	1653-1706	DEU	Baroque
-Henry Purcell	1659-1695	ENG	Baroque
-François Couperin	1668-1733	FRA	Baroque, Rococo
-Tomaso Albinoni	1671-1751	ITA	Baroque
-Antonio Vivaldi	1678-1741	ITA	Baroque
-Georg Philipp Telemann	1681-1767	DEU	Baroque
-Jean-Philippe Rameau	1683-1764	FRA	Baroque, Rococo
-Alessandro Marcello	1684-1750	ITA	Baroque
-Johann Sebastian Bach	1685-1750	DEU	Baroque
-George Frederick Handel	1685-1759	DEU/ENG	Baroque
-Domenico Scarlatti	1685-1757	ITA	Baroque
-Giuseppe Tartini	1692-1770	ITA	Baroque
-Thomas Arne	1710-1778	ENG	Classical
-Giovanni Pergolesi	1710-1736	ITA	Classical, Neapolitan School
-Carl Philipp Emanuel Bach	1714-1788	DEU	Classical, Rococo
-Christoph Willibald Gluck	1714-1787	DEU	Classical
-Franz Joseph Haydn	1732-1809	AUT	Classical, First Viennese School
-Luigi Boccherini	1743-1805	ITA	Classical
-Carl Stamitz	1745-1801	DEU	Classical, Mannheim School
-Wolfgang Amadeus Mozart	1756-1791	AUT	Classical, First Viennese School
-Ludwig van Beethoven	1770-1827	DEU	Romantic, First Viennese School
-John Field	1782-1837	IRL	Romantic
-Niccolò Paganini	1782-1840	ITA	Romantic, Virtuoso
-Carl Maria von Weber	1786-1826	DEU	Romantic
-Giacomo Meyerbeer	1791-1864	DEU	Romantic
-Gioachino Rossini	1792-1868	ITA	Romantic, Bravura
-Gaetano Donizetti	1797-1848	ITA	Romantic, Vulgar
-Franz Schubert	1797-1828	AUT	Romantic, First Viennese School
-Vincenzo Bellini	1801-1835	ITA	Romantic, Beautiful
-Hector Berlioz	1803-1869	FRA	Romantic, Pathos
-Mikhail Glinka	1804-1857	RUS	Romantic
-Felix Mendelssohn	1809-1847	DEU	Romantic, Conservative
-Frederic Chopin	1810-1849	POL	Romantic, National
-Robert Schumann	1810-1856	DEU	Romantic
-Franz Liszt	1811-1886	HUN	Romantic, New German School
-Giuseppe Verdi	1813-1901	ITA	Late- / Post-Romantic
-Richard Wagner	1813-1883	DEU	Late- / Post-Romantic, Neoromanticism, heroic
-Charles Gounod	1818-1893	FRA	Late- / Post-Romantic, Light
-Jacques Offenbach	1819-1880	DEU/FRA	Late- / Post-Romantic, Operetta
-Franz von Suppe	1819-1895	AUT	Romantic
-César Franck	1822-1890	BEL/FRA	Late- / Post-Romantic
-Anton Bruckner	1824-1896	AUT	Late- / Post-Romantic, Radical
-Bedrich Smetana	1824-1884	BOH	Late- / Post-Romantic
-Johann Strauss II	1825-1899	AUT	Late- / Post-Romantic, Waltz
-Louis Moreau Gottschalk	1829-1869	USA	Romantic
-Anton Rubinstein	1829-1894	RUS	Late- / Post-Romantic
-Alexander Borodin	1833-1887	RUS	Late- / Post-Romantic, Five
-Johannes Brahms	1833-1897	DEU	Late- / Post-Romantic, Conservative
-Camille Saint-Saens	1835-1921	FRA	Late- / Post-Romantic, Progressive
-Léo Delibes	1836-1891	FRA	Late- / Post-Romantic, Light
-Georges Bizet	1838-1875	FRA	Romantic, Light
-Max Bruch	1838-1920	DEU	Romantic
-Modest Mussorgsky	1839-1881	RUS	Late- / Post-Romantic, Five
-Pyotr Ilyich Tchaikovsky	1840-1893	RUS	Late- / Post-Romantic
-Emmanuel Chabrier	1841-1894	FRA	Late- / Post-Romantic
-Antonin Dvorák	1841-1904	CZE	Late- / Post-Romantic
-Jules Massenet	1842-1912	FRA	Late- / Post-Romantic, Elegant
-Arthur Sullivan	1842-1900	ENG	Late- / Post-Romantic
-Edvard Grieg	1843-1907	NOR	Late- / Post-Romantic, National
-Nikolai Rimsky-Korsakov	1844-1908	RUS	Late- / Post-Romantic, Five
-Pablo de Sarasate	1844-1908	ESP	Romantic
-Gabriel Fauré	1845-1924	FRA	Late- / Post-Romantic, Light
-Engelbert Humperdinck	1854-1921	DEU	Late- / Post-Romantic
-Leos Janáček	1854-1928	CZE	Late- / Post-Romantic, Folk
-John Philip Sousa	1854-1932	USA	Late- / Post-Romantic, Martial
-Edward Elgar	1857-1934	ENG	Late- / Post-Romantic, National
-Ruggero Leoncavallo	1857-1919	ITA	Late- / Post-Romantic
-Giacomo Puccini	1858-1924	ITA	Late- / Post-Romantic, Sensitive
-Isaac Albéniz	1860-1909	ESP	Late- / Post-Romantic, National
-Edward MacDowell	1860-1908	USA	Late- / Post-Romantic, Boston Six
-Gustav Mahler	1860-1911	AUT	Late- / Post-Romantic, Yearning
-Hugo Wolf	1860-1903	AUT	Late- / Post-Romantic
-Claude Debussy	1862-1918	FRA	Impressionist
-Frederick Delius	1862-1934	ENG	Late- / Post-Romantic
-Pietro Mascagni	1863-1945	ITA	Late- / Post-Romantic
-Richard Strauss	1864-1949	DEU/AUT	Late- / Post-Romantic, National
-Paul Dukas	1865-1935	FRA	Impressionist
-Alexander Glazunov	1865-1936	RUS	Late- / Post-Romantic
-Carl Nielsen	1865-1931	DNK	Late- / Post-Romantic, Folk
-Jean Sibelius	1865-1957	FIN	Late- / Post-Romantic, Anti-modernism, National
-Ferruccio Busoni	1866-1924	ITA	Late- / Post-Romantic
-Erik Satie	1866-1925	FRA	Impressionist, Avant-garde
-Enriqué Granados	1867-1916	ESP	Late- / Post-Romantic, National
-Scott Joplin	c.1868-1917	USA	Late- / Post-Romantic
-Hans Pfitzner	1869-1949	DEU	Modern
-Franz Lehár	1870-1948	AUT	Late- / Post-Romantic
-Alexander Scriabin	1872-1915	RUS	Late- / Post-Romantic, Abstract
-Ralph Vaughan Williams	1872-1958	ENG	Late- / Post-Romantic, National
-Sergey Rachmaninov	1873-1943	RUS/USA	Late- / Post-Romantic, Nostalgia
-Gustav Holst	1874-1934	ENG	Modern, National
-Charles Ives	1874-1954	USA	Modern, American Five, Microtonal, National, Aleatoric
-Arnold Schoenberg	1874-1951	AUT/USA	Modern, Second Viennese School, Neoclassicism
-Reinhold Glière	1875-1956	RUS	Modern
-Fritz Kreisler	1875-1962	AUT/USA	Modern
-Maurice Ravel	1875-1937	FRA	Impressionist, Folk, Neoclassicism
-Manuel de Falla	1876-1946	ESP	Impressionist, Folk, Neoclassicism
-Carl Ruggles	1876-1971	USA	Modern, Ultramodern, American Five
-Franz Schreker	1878-1934	AUT	Modern, Expressionist
-Frank Bridge	1879-1941	ENG	Modern
-Ottorino Respighi	1879-1936	ITA	Modern
-Béla Bartók	1881-1945	HUN	Modern, Folk
-Percy Grainger	1882-1961	AUS/USA	Modern
-Igor Stravinsky	1882-1971	RUS/FRA/USA	Modern, Folk, Primitivism, Neoclassicism
-Karol Szymanowski	1882-1937	POL	Modern
-Emmerich Kalman	1882-1953	HUN	Modern
-Arnold Bax	1883-1953	ENG	Modern
-Edgard Varese	1883-1965	FRA	Modern, Ultramodern, Microtonal, sonorism
-Anton Webern	1883-1945	AUT	Modern, Second Viennese School, Neoclassicism
-Alban Berg	1885-1935	AUT	Modern, Second Viennese School, Neoclassicism
-Jerome Kern	1885-1945	USA	Modern
-Heitor Villa-Lobos	1887-1959	BRA	Modern, Neoclassicism
-Max Steiner	1888-1971	DEU	Film, Film father
-Frank Martin	1890-1974	CHE	Modern
-Sergey Prokofiev	1891-1953	RUS	Modern, National
-Arthur Honegger	1892-1955	CHE	Modern, Les Six
-Darius Milhaud	1892-1974	FRA	Modern, Les Six, Neoclassicism
-Leo Ornstein	1893-2002	USA	Modern, Avant-garde pianist
-Dimitri Tiomkin	1894-1979	RUS/USA	Film, Film father
-Paul Hindemith	1895-1963	DEU/USA	Modern, Neoclassicism
-Carl Orff	1895-1982	DEU	Modern, Carmina Burana (medieval)
-William Grant Still	1895-1978	USA	Contemporary, Pop
-Virgil Thomson	1896-1989	USA	Contemporary, Neoclassicism, Neoromanticism, Copland group
-Henry Cowell	1897-1965	USA	Modern, Ultramodern, American Five, aleatoric
-George Gershwin	1898-1937	USA	Modern, Jazz
-Roy Harris	1898-1979	USA	Contemporary, Neoclassicism, Copland group
-Francis Poulenc	1899-1963	FRA	Modern, Les Six, Neoromanticism
-George Antheil	1900-1959	USA	Modern, Ultramodern
-Aaron Copland	1900-1990	USA	Modern, Neoclassicism, National
-Kurt Weill	1900-1950	DEU/USA	Modern
-Ernst Krenek	1900-1991	USA	Contemporary, Neoclassicism, Zeitoper
-Isaak Dunayevsky	1900-1955	RUS	Film
-Joaquín Rodrigo	1901-1999	ESP	Modern
-Ruth Crawford Seeger	1901-1953	USA	Contemporary
-Harry Partch	1901-1974	USA	Contemporary, Microtonal, Instrument builder
-Alfred Newman	1901-1970	USA	Film, Film father
-William Walton	1902-1983	ENG	Modern, National
-Stefan Wolpe	1902-1972	DEU/USA	Contemporary
-Aram Khachaturian	1903-1978	ARM	Modern
-Giacinto Scelsi	1905-1988	ITA	Contemporary, Microtonal, sonorism
-Dmitry Shostakovich	1906-1975	RUS	Modern, National
-Franz Waxman	1906-1967	DEU/USA	Film
-Miklos Rozsa	1907-1995	USA/HUN	Film
-Elliott Carter	b 1908	USA	Modern, Neoclassicism
-Olivier Messiaen	1908-1992	FRA	Modern, Darmstadt School, Total serialism
-Samuel Barber	1910-1981	USA	Modern
-Pierre Schaeffer	1910-1995	FRA	Contemporary, Musique concrete, sonorism
-Bernard Herrmann	1911-1975	USA	Film
-Nino Rota	1911-1979	ITA	Film
-John Cage	1912-1992	USA	Contemporary, Darmstadt School, New York School, Aleatoric
-Conlon Nancarrow	1912-1997	MEX	Contemporary, Mechanical piano
-Benjamin Britten	1913-1976	ENG	Modern, Conservative
-Witold Lutosławski	1913-1994	POL	Contemporary, Avant-garde, sonorism, aleatoric
-Georgy Sviridov	1915-1998	RUS	Modern
-Milton Babbitt	b 1916	USA	Modern, Total serialism
-Leonard Bernstein	1918-1990	USA	Contemporary, Boston School, Popular music
-Bernd Alois Zimmermann	1918-1970	DEU	Contemporary, Klangkomposition, Dark
-Malcolm Arnold	1921-2006	ENG	Modern
-Astor Piazzolla	1921-1992	ARG	Contemporary, Nuevo Tango
-Iannis Xenakis	1922-2001	GRC/FRA	Contemporary, Darmstadt School, sonorism
-Elmer Bernstein	1922-2004	USA	Film
-György Ligeti	1923-2006	HUN	Contemporary, Avant-garde, sonorism, micropolyphony
-Luigi Nono	1924-1990	ITA	Contemporary, Darmstadt School
-Maurice Jarre	1924-	FRA	Film
-Henry Mancini	1924-1994	USA	Film
-Luciano Berio	1925-2003	ITA	Contemporary, Darmstadt School
-Pierre Boulez	b 1925	FRA	Contemporary, Darmstadt School, Total serialism
-Morton Feldman	1926-1987	USA	Modern, New York School
-Karlheinz Stockhausen	1928-2007	DEU	Contemporary, Darmstadt School, Avant-garde
-Ennio Morricone	1928-	ITA	Film
-Jerry Goldsmith	1929-2004	USA	Film
-Sofia Gubaidulina	b 1931	RUS	Contemporary, Extended instruments and techniques
-Alvin Lucier	1931-	USA	Contemporary, Physics and recording technique experimenter
-Mauricio Kagel	1931-	ARG	Contemporary, Darmstadt School, Absurd
-John Williams	b 1932	USA	Film
-Rodion Shchedrin	b 1932	RUS	Modern
-Krzysztof Penderecki	b 1933	POL	Contemporary, Sonorism, national
-Morton Subotnick	1933-	USA	Contemporary, Electronic music
-John Barry	1933-	ENG	Film
-Harrison Birtwistle	b 1934	ENG	Contemporary, New Music Manchester
-Alfred Schnittke	1934-1998	RUS	Contemporary, New Simplicity, Polystylism
-Peter Maxwell Davies	1934-	ENG/SCO	Contemporary, New Music Manchester, Polystylism
-Arvo Pärt	b 1935	EST	Contemporary, Holy minimalism
-Terry Riley	1935-	USA	Contemporary, Minimalism
-Helmut Lachenmann	1935-	DEU	Contemporary, Musique concrete instrumentale, new techniques
-La Monte Young	1935-	ESP	Contemporary, Drone minimalism
-Giya Kancheli	1935-	RUS	Film
-Steve Reich	b 1936	USA	Contemporary, Minimalism
-Philip Glass	b 1937	USA	Contemporary, Minimalism
-Angelo Badalamenti	1937-	USA	Film
-Eduard Artemyev	1937-	RUS	Film, Film electronic
-William Bolcom	b 1938	USA	Contemporary, Neoromanticism, Eclectism
-Brian Ferneyhough	1943-	ENG	Contemporary, New complexity
-Vangelis	1943-	GRC	Film, Film electronic
-Randy Newman	1943-	USA	Film
-Michael Nyman	b 1944	BRI	Contemporary, Minimalism, film
-Basil Poledouris	1945-2006	GRC/USA	Film
-Gerard Grisey	1946-1998	FRA	Contemporary, Spectral, sonorism
-Howard Shore	1946-	CAN	Film
-John Adams	b 1947	USA	Contemporary, Post-minimalism
-Tristan Murail	1947-	FRA	Contemporary, Spectral, sonorism
-John Carpenter	1948-	USA	Film
-Alan Menken	1949-	USA	Film
-Alan Silvestri	1950-	USA	Film
-Goran Bregovic	1950-	SRB	Film
-James Newton Howard	1951-	USA	Film
-James Horner	1953-	USA	Film
-Danny Elfman	1953-	USA	Film
-Patrick Doyle	1953-	SCO	Film
-Thomas Newman	1955-	USA	Film
-Zbigniew Preisner	1955-	POL	Film
-Hans Zimmer	1957-	DEU	Film, Film electronic
-Osvaldo Golijov	1960-	ARG	Contemporary, Folk
-Alexandre Desplat	1961-	FRA	Film
-Michael Giacchino	1967-	USA	Film
-Yann Tiersen	b 1970	FRA	Contemporary, Pop
-Thomas Ades	1971-	ENG	Contemporary
-
-
-# From pages under:
-#  https://en.wikipedia.org/wiki/Chronological_lists_of_classical_composers_by_nationality
+## From pages under:
+##  https://en.wikipedia.org/wiki/Chronological_lists_of_classical_composers_by_nationality
 
 
 #Nationality: Austrian
 
-Baroque[edit]
+#Period: Baroque
 Johann Heinrich Schmelzer (1623–1680)
 Heinrich Ignaz Franz Biber (1644–1704)
 Georg Reutter (1656–1738)
@@ -275,7 +16,7 @@ Gregor Joseph Werner (1693–1766)
 Joseph Balthasar Hochreither (1669–1731)
 Georg Joseph Donberger (1707–1768)
 Carl Georg Reutter (1708–1772)
-Classical era[edit]
+#Period: Classical
 Joseph Riepel (1709–1782)
 Franz Xaver Richter (1709–1789)
 Johann Adam Scheibl (1710–1773)
@@ -321,7 +62,7 @@ Joseph Leopold Eybler (1765—1846)
 Franz Xaver Süssmayr (1766–1803)
 Joseph Weigl (1766–1846)
 Wenzel Müller (1767–1835)
-Romantic[edit]
+#Period: Romantic
 Ignaz von Seyfried (1776–1841)
 Johann Baptist Gänsbacher (1778–1844)
 Johann Nepomuk Hummel (1778–1837)
@@ -343,7 +84,7 @@ Hans Rott (1858–1884)
 Hugo Wolf (1860-1903)
 Gustav Mahler (1860–1911)
 Johann Strauss III (1866–1939)
-Modern/Contemporary[edit]
+#Period: Modern
 Alexander von Zemlinsky (1871–1942)
 Walter Rabl (1873–1940)
 Franz Schmidt (1874–1939)
@@ -365,9 +106,9 @@ Olga Neuwirth (born 1968)
 Klaus Lang (born 1971)
 
 #Nationality: Belgian
-Medieval[edit]
+#Period: Medieval
 Johannes Ciconia (c. 1370–1412)
-Renaissance[edit]
+#Period: Renaissance
 Guillaume Dufay (1397–1474)
 Gilles Binchois (c. 1400–1460)
 Johannes Brassart (c. 1400/1405–1455)
@@ -380,14 +121,14 @@ Gaspar van Weerbeke (c. 1445–after 1516)
 Loyset Compère (c. 1445–1518)
 Alexander Agricola (1445/1446–1506)
 Matthaeus Pipelare (c. 1450–c. 1515)
-Heinrich Isaac (Henricus Ysaac) (c. 1450/1455–1517)
+Heinrich Isaac (c. 1450/1455–1517), aka:'Henricus Ysaac'
 Josquin des Prez (c. 1450/1455–1521)
 Pierre de la Rue (c. 1452–1518)
 Jacobus Barbireau (1455–1491)
 Jacob Obrecht (c. 1457/1458–1505)
-Antonius Divitis (Anthonius Rycke) (c. 1470–c. 1530)
+Antonius Divitis (c. 1470–c. 1530), aka:'Anthonius Rycke'
 Adrian Willaert (c. 1490–1562)
-Johannes Ghiselin (Verbonnet) (fl. 1491–1507)
+Johannes Ghiselin (fl. 1491–1507), aka:'Verbonnet'
 Nicolas Gombert (c. 1495–c. 1560)
 Thomas Crecquillon (c. 1505–1557)
 Jean De Latre (c. 1505/1510–1569)
@@ -408,11 +149,11 @@ Emmanuel Adriaenssen (c. 1554–1604)
 Carolus Luython (1557–1620)
 Philippus Schoendorff (1558–1617)
 Cornelis Verdonck (1563–1625)
-Baroque[edit]
+#Period: Baroque
 Peeter Cornet (c. 1570/1580–1633)
 Géry de Ghersem (1573/1575–1630)
 Léonard de Hodémont (c. 1575–1639)
-Mateo Romero (Mathieu Rosmarin) (c. 1575–1647)
+Mateo Romero (c. 1575–1647), aka:(Mathieu Rosmarin)
 Guilielmus Messaus (1589–1640)
 Nicolaes a Kempis (c. 1600–1676)
 Henri Dumont (1610–1684)
@@ -423,39 +164,39 @@ Daniel Danielis (1635–1696)
 Joannes Florentius a Kempis (1635–after 1711)
 Lambert Chaumont (c. 1635–1712)
 Carolus Hacquart (c. 1640–1701?)
-Alphonse d'Eve (it) (1666–1727)
-Petrus Hercules Brehy (1673–1737) ([1])
-Jean-Baptiste Loeillet of London (John Loeillet) (1680–1730)
+Alphonse d'Eve (1666–1727)
+Petrus Hercules Brehy (1673–1737)
+Jean-Baptiste Loeillet of London (1680–1730), aka:(John Loeillet)
 Jacques Loeillet (1685–1748)
 Jean-Joseph Fiocco (1686–1746)
 Jean Baptiste Loeillet of Ghent (1688–c. 1720)
 Josse Boutmy (1697–1779)
 Joseph-Hector Fiocco (1703–1741)
 Henri-Jacques de Croes (1705–1786)
-Jean-Noël Hamal (nl) (1709–1778)
-Classical[edit]
+Jean-Noël Hamal  (1709–1778)
+#Period: Classical
 Joseph Abaco (1710–1805)
-Charles-Joseph van Helmont (de) (1715–1790)
+Charles-Joseph van Helmont (1715–1790)
 Matthias van den Gheyn (1721–1785)
 Pieter van Maldere (1729–1768)
 François Joseph Gossec (1734–1829)
 André Ernest Modeste Grétry (1741–1813)
 Jérôme-Joseph de Momigny (1762–1842)
-Romantic[edit]
+#Period: Romantic
 Martin-Joseph Mengal (1784–1851)
 François-Joseph Fétis (1784–1871)
 Nicolas Bosret (1799–1876)
-Jean-Valentin Bender (nl) (1801–1873)
+Jean-Valentin Bender (1801–1873)
 Charles Auguste de Bériot (1802–1870)
-Karel-Louis (Charles-Louis) Hanssens (1802–1871)
+Karel-Louis Hanssens (1802–1871), aka:(Charles-Louis Hanssens) 
 Albert Grisar (1808–1869)
 Jean-Baptiste Singelée (1812–1875)
 Félix Godefroid (1818–1897)
 Henri Vieuxtemps (1820–1881)
 César Franck (1822–1890)
 Jacques-Nicolas Lemmens (1823–1881)
-Dieudonné Dagnelies (nl) (1825–1894)
-Constantin Bender (nl) (1826–1902)
+Dieudonné Dagnelies (1825–1894)
+Constantin Bender (1826–1902)
 Désiré Magnus (1828–1884)
 Eduard Lassen (1830–1904)
 Peter Benoit (1834–1901)
@@ -463,7 +204,7 @@ Jean-Théodore Radoux (1835–1911)
 Joseph Callaerts (1838–1901)
 Louis Brassin (1840–1884)
 Jan Blockx (1851–1912)
-Jacques Martin (nl) (1851–1930)
+Jacques Martin  (1851–1930)
 Edgar Tinel (1854–1912)
 Sylvain Dupuis (1856–1931)
 César Thomson (1857–1931)
@@ -472,7 +213,7 @@ Ivan Caryll (1861–1921)
 Arthur De Greef (1862–1940)
 Théo Ysaÿe (1865–1918)
 Guillaume Lekeu (1870–1894)
-Modern/Contemporary[edit]
+#Period: Modern
 August de Boeck (1865–1937)
 Paul Gilson (1865–1942)
 Lodewijk Mortelmans (1868–1952)
@@ -483,78 +224,78 @@ Albert Dupuis (1877–1967)
 Jean Rogister (1879–1964)
 Arthur Meulemans (1884–1966)
 Jef van Hoof (1886–1959)
-Francis de Bourguignon (nl) (1890–1961)
+Francis de Bourguignon  (1890–1961)
 Maurice Schoemaker (1890–1964)
-René Barbier (de) (1890–1981)
-Marinus de Jong (nl) (1891–1984)
-Jules Strens (nl) (1893–1971)
+René Barbier (1890–1981)
+Marinus de Jong (1891–1984)
+Jules Strens (1893–1971)
 Jean Absil (1893–1974)
 Emmanuel Durlet (1893–1977)
 Albert Huybrechts (1899–1938)
 André Souris (1899–1970)
 Marcel Poot (1901–1988)
-Gérard Favere (nl) (1903–1975)
+Gérard Favere (1903–1975)
 Flor Peeters (1903–1986)
-Armand Preud'homme (nl) (1904–1986)
+Armand Preud'homme (1904–1986)
 René Bernier (1905–1984)
 Daniel Sternefeld (1905–1986)
-René Defossez (nl) (1905–1988)
+René Defossez (1905–1988)
 Jef Maes (1905–1996)
-Arthur Bosmans (nl) (1908–1991)
-Karel De Schrijver (nl) (1908–1992)
-Jos Moerenhout (nl) (1909–1985)
-Lucien Gekiere (nl) (1912–1990)
-Jos Hanniken (nl) (1912–1998)
+Arthur Bosmans (1908–1991)
+Karel De Schrijver (1908–1992)
+Jos Moerenhout (1909–1985)
+Lucien Gekiere (1912–1990)
+Jos Hanniken (1912–1998)
 Willy Ostijn (1913–1993)
-Maurice Vaute (1913–2000) ([2])
+Maurice Vaute (1913–2000)
 Ernest van der Eyken (1913–2010)
 Pierre Froidebise (1914–1962)
 Marcel Quinet (1915–1986)
 Victor Legley (1915–1994)
-Georges Follman (nl) (born 1920)
-Charles Frison (nl) (born 1921)
+Georges Follman (born 1920)
+Charles Frison (born 1921)
 Karel Goeyvaerts (1923–1993)
-Peter Cabus (nl) (1923–2000)
-Herman Roelstraete (nl) (1925–1985)
+Peter Cabus (1923–2000)
+Herman Roelstraete (1925–1985)
 Yolande Uyttenhove (1925–2000)
-Guy Duijck (nl) (1927–2008)
-Louis Marischal (nl) (1928–1999)
+Guy Duijck (1927–2008)
+Louis Marischal (1928–1999)
 Willem Kersters (1929–1998)
 Philibert Mees (1929–2006)
 Henri Pousseur (1929–2009)
 Didier van Damme (born 1929)
 Frédéric Devreese (born 1929)
-Jan Segers (nl) (born 1929)
-Werner Van Cleemput (nl) (1930–2006)
+Jan Segers (born 1929)
+Werner Van Cleemput (1930–2006)
 Jacqueline Fontyn (born 1930)
 Lucien Goethals (1931–2006)
 André Laporte (born 1931)
-Jean-Marie Simonis (fr) (born 1931)
-Jacques Leduc (fr) (born 1932)
-Elias Gistelinck (nl) (1935–2005)
+Jean-Marie Simonis (born 1931)
+Jacques Leduc (born 1932)
+Elias Gistelinck (1935–2005)
 Philippe Boesmans (born 1936)
 Frans Geysen (born 1936)
 Pierre Bartholomée (born 1937)
 André Waignein (born 1942)
-Jan De Maeyer (nl) (born 1949)
+Jan De Maeyer (born 1949)
 Carl Verbraeken (born 1950)
-Robert Groslot (nl) (born 1951)
-Karel De Wolf (nl) (1952–2011)
-Jan Haderman (nl) (born 1952)
+Robert Groslot (born 1951)
+Karel De Wolf (1952–2011)
+Jan Haderman (born 1952)
 Godfried-Willem Raes (born 1952)
 Wim Mertens (born 1953)
 Jan Van der Roost (born 1956)
 Nicholas Lens (born 1957)
-Hans Vermeersch (nl) (born 1957)
+Hans Vermeersch (born 1957)
 Dirk Brossé (born 1960)
-Piet Swerts (nl) (born 1960)
+Piet Swerts (born 1960)
 Wim Henderickx (born 1962)
-Frank Bernaerts (de) (born 1967)
+Frank Bernaerts (born 1967)
 Pierre Kolp (born 1969)
 Annelies Van Parys (born 1975)
 
 #Nationality: Czech
-Renaissance[edit]
+#Period: Renaissance
 Jan Blahoslav (1523–1571)
 Jan Simonides Montanus (1530/1540–1587)
 Simon Bar Jona Madelka (1530/1550–~1598)
@@ -562,12 +303,12 @@ Jiří Rychnovský (1545–1616)
 Jan Trojan Turnovský (before 1550-1606)
 Pavel Spongopaeus Jistebnický (1560–1616)
 Kryštof Harantz Polžic a Bezdružic (1564–1621)
-Baroque[edit]
+#Period: Baroque
 Jan Campanus Vodňanský (1572–1622)
 Adam Václav Michna z Otradovic (~1600–1676)
 Alberik Mazák (1609–1661)
 Pavel Josef Vejvanovský (~1640–1693)
-Heinrich Ignaz Franz von Biber (1644–1704) (born Stráž pod Ralskem, 50 miles n. of Prague)
+Heinrich Ignaz Franz von Biber (1644–1704)
 Václav Karel Holan Rovenský (~1644–1718)
 Jan Ignác František Vojta (c. 1660–before 1725)
 Jan Dismas Zelenka (1679–1745)
@@ -577,12 +318,12 @@ Jan Josef Ignác Brentner (1689–1742)
 František Antonín Václav Míča (1694–1744)
 František Ignác Tůma (1704–1774)
 Josef Antonín Sehling (1710-1756)
-Classical era[edit]
-Johann Baptist Georg Neruda (born Jan Křtitel Jiří Neruda; approx 1707–1780)
-František Benda (a.k.a. Franz Benda; 1709–1786)
-Franz Xaver Richter (born in Moravia, 1709–1789)
-Jan Václav Antonín Stamic (generally known as Johann Wenzel Anton Stamitz ; 1717–1757)
-Jiří Antonín Benda (a.k.a. George Benda; brother of Franz Benda; 1722–1795)
+#Period: Classical
+Johann Baptist Georg Neruda (c. 1707–1780), aka:(Jan Křtitel Jiří Neruda)
+František Benda (1709–1786), aka:(Franz Benda)
+Franz Xaver Richter (1709–1789)
+Jan Václav Antonín Stamic (1717–1757), aka:'Johann Wenzel Anton Stamitz'
+Jiří Antonín Benda (1722–1795), aka:'George Benda'; brother of Franz Benda; 
 Jiří Ignác Linek (1725–1791)
 Florian Leopold Gassmann (1729–1774)
 František Xaver Pokorný (1729–1794)
@@ -590,7 +331,7 @@ František Kočvara (1730–1791)
 František Xaver Dušek (1731–1799)
 František Brixi (1732–1771)
 Josef Mysliveček (1737–1781)
-Johann Baptist Wanhal (1739–1813; born Jan Ignatius Vaňhal)
+Johann Baptist Wanhal (1739–1813), aka:'Jan Ignatius Vaňhal'
 Václav Pichl (1741–1805)
 Josef Bárta (1744–1787)
 Jiří Družecký (1745–1819)
@@ -599,14 +340,14 @@ Jan Václav Stich (1746–1803)
 Josef Fiala (1748–1816)
 Antonín Kraft (1749–1820)
 Antonín Stamic (1750-1809)
-Antonio Rosetti (born Anton Rössler) (c. 1750–1792)
+Antonio Rosetti (c. 1750–1792),  aka:(Anton Rössler)
 Pavel Vranický (1756–1808)
-Franz Krommer (1759–1831; born as František Kramář)
+Franz Krommer (1759–1831), aka:'František Kramář'
 Jan Ladislav Dussek (1760–1812)
 Antonín Vranický (1761–1820)
 Adalbert Gyrowetz (1763–1850)
 Jakub Jan Ryba (1765–1815)
-Romantic[edit]
+#Period: Romantic
 Antonín Rejcha (1770–1836)
 Wenzeslaus Matiegka (1773–1830)
 Václav Jan Tomášek (1774–1850)
@@ -621,11 +362,11 @@ Karel Bendl (1838–1897)
 Zdeněk Fibich (1850–1900)
 Wilhelm Kuhe (1823–1912)
 Antonín Dvořák (1841–1904)
-Modern/Contemporary[edit]
+#Period: Modern
 Leoš Janáček (1854–1928)
 Bohumil Fidler (1860–1944)
 Josef Bohuslav Foerster (1859–1951)
-Gustav Mahler (1860–1911; born in Kaliště, Bohemia)
+Gustav Mahler (1860–1911)
 Karel Kovařovic (1862-1920)
 Emil Votoček (1862–1950)
 František Drdla (1868–1944)
@@ -688,7 +429,7 @@ Ivana Loudová (born 1941)
 Otomar Kvěch (born 1950)
 
 #Nationality: English
-Medieval[edit]
+#Period: Medieval
 Godric (c. 1065–1170)
 W. de Wycombe (fl. c. 1275–1279)
 John Hanboys (14th century); may be J. de Alto Bosco (fl. c. 1370)
@@ -697,7 +438,7 @@ Aleyn (fl. c. 1400)
 Byttering (fl. c. 1410–1420)
 Pycard (fl. c. 1410)
 Roy Henry (fl. c. 1410)
-Renaissance[edit]
+#Period: Renaissance
 Leonel Power (c. 1370/1385–1445)
 John Dunstaple (c. 1390–1453)
 John Hothby (c. 1410–1487)
@@ -713,7 +454,7 @@ John Browne (b. 1453?; fl. c. 1490)
 Robert Fayrfax (1464–1521)
 Richard Davy (c. 1465–1538?)
 William Cornysh the younger (1468–1523)
-Robert Johnson (c.1470–after 1554)[1]
+Robert Johnson (c.1470–after 1554)
 Thomas Ashewell (c. 1478–after 1513)
 John Redford (c. 1486–1547)
 Nicholas Ludford (c. 1490–1557)
@@ -742,7 +483,7 @@ William Leighton (c. 1565–1622)
 Thomas Campion (1567–1620)
 Philip Rosseter (1568–1623)
 Tobias Hume (1569?–1645)
-John Coprario (John Cooper; Giovanni Coperario) (1570–1626)
+John Coprario (1570–1626) aka:(John Cooper), aka:(Giovanni Coperario) 
 John Farmer (c. 1570–c. 1601)
 Thomas Lupo (1571–1627)
 Martin Peerson (1571/1573–1650)
@@ -752,7 +493,7 @@ Thomas Tomkins (1572–1656)
 Ellis Gibbons (1573–1603)
 John Wilbye (1574–1638)
 John Bennet (c. 1575–after 1614)
-Thomas Cutting (son of [Francis Cutting]], Lutenist to Arbella Stuart, then Christian IV, then Henry Frederick, Prince of Wales, dates unknown)
+Thomas Cutting (fl. 1611) Lutenist to Arbella Stuart, then Christian IV, then Henry Frederick, Prince of Wales
 Alfonso Ferrabosco the younger (c. 1575–1628)
 Thomas Weelkes (1576–1623)
 John Maynard (c. 1577–c. 1633)
@@ -762,7 +503,7 @@ Thomas Ford (c. 1580–1648)
 Orlando Gibbons (1583–1625)
 Robert Johnson (1583–1633)
 Thomas Robinson (c. 1588–after 1609)
-Baroque[edit]
+#Period: Baroque
 Nicholas Lanier (1588–1666)
 Richard Mico (1590–1661)
 John Jenkins (1592–1678)
@@ -783,7 +524,7 @@ John Blow (1649–1708)
 William Turner (1651–1740)
 Henry Purcell (1659–1695)
 Daniel Purcell (1664–1717)
-Johann Christoph Pepusch (John Christopher Pepusch) (1667–1742)
+Johann Christoph Pepusch (1667–1742), aka:(John Christopher Pepusch)
 John Eccles (1668–1735)
 Henry Eccles (1670–1742)
 Jeremiah Clarke (c. 1674–1707)
@@ -798,7 +539,7 @@ Robert Woodcock (c. 1690–1728)
 Maurice Greene (1696–1755)
 Richard Jones (late 17th century–1744)
 Joseph Gibbs (1699–1788)
-Classical era[edit]
+#Period: Classical
 Thomas Chilcot (c. 1707–1766)
 Charles Avison (1709–1770)
 Thomas Arne (1710–1778)
@@ -806,7 +547,7 @@ Thomas Gladwin (1710–1799)
 William Boyce (1711–1779)
 John Stanley (1712–1786)
 James Nares (1715–1783)
-William Walond (1719–1768)[2]
+William Walond (1719–1768)
 John Garth (1721–1810)
 Charles Burney (1726–1814)
 Capel Bond (1730–1790)
@@ -830,9 +571,9 @@ Matthew Camidge (1764–1844)
 John Addison (c. 1765–1844)
 Thomas Attwood (1765–1838)
 Samuel Wesley (1766–1837)
-Romantic[edit]
+#Period: Romantic
 William Crotch (1775–1847)
-John Field (1782–1837) (Irish)
+John Field (1782–1837)
 Thomas Adams (1785–1858)
 George Pinto (1785–1806)
 Cipriani Potter (1792–1871)
@@ -856,22 +597,22 @@ Joseph Barnby (1838–1896)
 Alice Mary Smith (1839–1884)
 Sydney Smith (1839–1889)
 John Stainer (1840–1901)
-Michael Maybrick (Stephen Adams) (1841–1913)
+Michael Maybrick (1841–1913), aka:(Stephen Adams)
 Arthur Sullivan (1842–1900)
 Hubert Parry (1848–1918)
 Arthur Goring Thomas (1850–1892)
 Frederick Corder (1852–1932)
 Frederic Cowen (1852–1935)
-Charles Villiers Stanford (1852–1924) (Irish)
+Charles Villiers Stanford (1852–1924)
 Bertram Luard-Selby (1853–1918)
-Maude Valerie White (1855–1937) (French-born)
+Maude Valerie White (1855–1937)
 Frederic Cliffe (1857–1931)
 Rosalind Ellicott (1857–1924)
 Edward Elgar (1857–1934)
 Isidore de Lara (1858–1935)
 Ethel Smyth (1858–1944)
 Basil Harwood (1859–1949)
-Modern/Contemporary[edit]
+#Period: Modern
 Frederick Delius (1862–1934)
 Edward German (1862–1936)
 Liza Lehmann (1862–1918)
@@ -970,7 +711,7 @@ Christopher Shaw (1925–1995)
 Arthur Wills (born 1926)
 Wilfred Josephs (1927–1997)
 John Joubert (born 1927)
-Graham Whettam (1927–2007)[3][4][5]
+Graham Whettam (1927–2007)
 Kenneth Leighton (1929–1988)
 Alexander Goehr (born 1932)
 Justin Connolly (born 1933)
@@ -1028,7 +769,7 @@ Ian Venables (born 1955)
 Sally Beamish (born 1956)
 Philip Grange (born 1956)
 Miguel del Aguila (born 1957)
-Francis Pott (composer) (born 1957)
+Francis Pott  (born 1957)
 Howard Goodall (born 1958)
 Lionel Sainsbury (born 1958)
 Patrick Hawes (born 1958)
@@ -1063,15 +804,15 @@ Charlotte Bray (born 1982)
 Sasha Siem (born 1984)
 
 #Nationality: French
-Medieval[edit]
+#Period: Medieval
 Leonin (c. 1150-1201)
 Perotin (1160-1230)
 Guillaume de Machaut (c. 1300–1377)
-Renaissance[edit]
+#Period: Renaissance
 Guillaume Dufay (c. 1397–1474)
 Gilles Binchois (c. 1400–1460)
 Loÿset Compère (c. 1445–1518)
-Josquin des Prez (c. 1450–1521), born near Franco-Flemish border
+Josquin des Prez (c. 1450–1521)
 Pierre de La Rue (c. 1452–1518)
 Antoine Brumel (c. 1460–1512/1513)
 Clément Janequin (c. 1485–1558)
@@ -1079,7 +820,7 @@ Claudin de Sermisy (c. 1490–1562)
 Nicolas Gombert (c. 1495–c. 1560)
 Ninot le Petit (fl. c. 1500–1520)
 Claude Gervaise (fl. 1540–1560)
-Baroque[edit]
+#Period: Baroque
 Pierre Guédron (c. 1570–c. 1620)
 Étienne Moulinié (c. 1600–after 1669)
 Jacques Champion de Chambonnières (c. 1601–1672)
@@ -1119,7 +860,7 @@ Joseph-Nicolas-Pancrace Royer (c. 1705–1755)
 Louis-Gabriel Guillemain (1705–1770)
 Michel Corrette (1707–1795)
 Jean-Joseph de Mondonville (1711–1772)
-Classical era[edit]
+#Period: Classical
 Jacques Duphly (1715–1789)
 François-André Danican Philidor (1726–1795)
 Joseph Touchemoulin (1727–1801)
@@ -1136,7 +877,7 @@ Rodolphe Kreutzer (1766–1831)
 Louis-Emmanuel Jadin (1768–1853)
 Charles Simon Catel (1773–1830)
 Hyacinthe Jadin (1776–1800)
-Romantic[edit]
+#Period: Romantic
 François-Adrien Boieldieu (1775–1834)
 Jacques Féréol Mazas (1782–1849)
 Daniel Auber (1782–1871)
@@ -1178,7 +919,7 @@ Alfred Bruneau (1857–1934)
 Cécile Chaminade (1857–1944)
 Mélanie Bonis (1858–1937)
 Gustave Charpentier (1860–1956)
-Modern/Contemporary[edit]
+#Period: Modern
 Claude Debussy (1862–1918)
 Maurice Emmanuel (1862–1938)
 Gabriel Pierné (1863–1937)
@@ -1252,14 +993,14 @@ Pascal Dusapin (born 1955)
 Nicolas Bacri (born 1961)
 
 #Nationality: German
-Medieval[edit]
+#Period: Medieval
 Hildegard von Bingen (1098–1179)
-Renaissance[edit]
+#Period: Renaissance
 Caspar Othmayr (1515–1553)
 Valentin Haussmann (1560–1614)
 Hans Leo Hassler (1564–1612)
 Johannes Ghro (1575–1627)
-Baroque[edit]
+#Period: Baroque
 Michael Praetorius (1571–1621)
 Andreas Hakenberger (1574–1627)
 Heinrich Schütz (1585–1672)
@@ -1277,7 +1018,7 @@ Johann Christian Hertel (1697–1754)
 Johann Joachim Quantz (1697–1773)
 Johann Gottlieb Graun (1703–1771)
 Carl Heinrich Graun (1704–1759)
-Classical era[edit]
+#Period: Classical
 Johan Agrell (1701–1765)
 Johann Ernst Eberlin (1702–1762)
 Johann Gottlieb Janitsch (1708–c. 1763)
@@ -1310,7 +1051,7 @@ Johann Friedrich Edelmann (1749–1794)
 Joseph Martin Kraus (1756–1792)
 Franz Danzi (1763–1826)
 Simon Mayr (1763–1845)
-Romantic/Post-romantic[edit]
+#Period: Romantic
 Peter Anton Kreusser (1765–1831)
 Ludwig van Beethoven (1770–1827)
 Friedrich Jeremias Witt (1770–1836)
@@ -1347,7 +1088,7 @@ Richard Strauss (1864–1949)
 Paul Lincke (1866-1946)
 Hans Pfitzner (1869–1949)
 Max Reger (1873–1916)
-Modern/Post-modern/Contemporary[edit]
+#Period: Modern
 Richard Wetz (1875–1935)
 Wilhelm Furtwängler (1886–1954)
 Rudi Stephan (1887–1915)
@@ -1377,13 +1118,13 @@ Hans-Jürgen von Bose (born 1953)
 Hans Zimmer (born 1957)
 
 #Nationality: Italian
-Medieval[edit]
+#Period: Medieval
 Maestro Piero (before 1300 – c. 1350)
 Gherardello da Firenze (c. 1320/1325 – c. 1362)
 Jacopo da Bologna (fl. 1340–1360)
-Giovanni da Cascia (Giovanni da Firenze) (14th century)
+Giovanni da Cascia (14th century), aka:(Giovanni da Firenze)
 Vincenzo da Rimini (14th century)
-Lorenzo da Firenze (Lorenzo Masini) (died 1372/1373)
+Lorenzo da Firenze (died 1372/1373), aka:(Lorenzo Masini)
 Francesco Landini (c. 1325/1335 – 1397)
 Donato da Cascia (fl. c. 1350–1370)
 Bartolino da Padova (fl. c. 1365 – c. 1405)
@@ -1391,12 +1132,12 @@ Niccolò da Perugia (later 14th century)
 Johannes Ciconia (c. 1370 – 1412)
 Antonello da Caserta (late 14th – early 15th century)
 Matteo da Perugia (fl. 1400–1416)
-Renaissance[edit]
+#Period: Renaissance
 Zacara da Teramo (c. 1350/1360 – c. 1413/1416)
 Paolo da Firenze (c. 1355 – c. 1436)
 Giovanni Mazzuoli (c. 1360 – 1426)
 Antonio da Cividale (fl. 1392–1421)
-Bartolomeo da Bologna (de Bononia) (fl. 1405–1427)
+Bartolomeo da Bologna (fl. 1405–1427), aka:(Bartolomeo de Bononia)
 Nicolaus Zacharie (c. 1400 – 1466)
 Johannes de Quadris (before 1410 – c. 1457)
 Franchinus Gaffurius (1451–1522)
@@ -1413,7 +1154,7 @@ Joan Ambrosio Dalza (fl. 1508)
 Gasparo Alberti (c. 1489 – c. 1560)
 Bernardo Pisano (1490–1548)
 Sebastiano Festa (c. 1490/1495 – 1524)
-Francesco de Layolle (dell'Aiolle) (1492–c. 1540)
+Francesco de Layolle (1492–c. 1540), aka:(dell'Aiolle)
 Francesco da Milano (1497–1543)
 Matteo Rampollini (1497–1553)
 Francesco Corteccia (1502–1571)
@@ -1430,7 +1171,7 @@ Francesco Cellavenia (fl. 1538–1563)
 Giovanni Animuccia (c. 1520 – 1571)
 Vincenzo Galilei (c. 1520 – 1591)
 Francesco Portinaro (c. 1520 – c. 1578)
-Hoste da Reggio (Bartolomeo Torresano) (c. 1520 – 1569)
+Hoste da Reggio (c. 1520 – 1569), aka:'Bartolomeo Torresano'
 Girolamo Parabosco (c. 1524 – 1577)
 Giovanni Pierluigi da Palestrina (c. 1525 – 1594)
 Baldassare Donato (1525/1530–1603)
@@ -1467,7 +1208,7 @@ Paolo Bellasio (1554–1594)
 Girolamo Diruta (c. 1554 – after 1610)
 Giovanni Giacomo Gastoldi (c. 1554 – 1609)
 Carlo Gesualdo (1566–1613)
-Baroque[edit]
+#Period: Baroque
 Emilio de' Cavalieri (1550–1602)
 Giulio Caccini (1551–1618)
 Paolo Quagliati (c. 1555 – 1628)
@@ -1529,7 +1270,7 @@ Giovanni Rovetta (c. 1596 – 1668)
 Virgilio Mazzocchi (1597–1646)
 Luigi Rossi (c. 1597 – 1653)
 Giovanni Battista Fasolo (c. 1598–c. 1664/1665)
-Girolamo Fantini (it) (c. 1600–1675)
+Girolamo Fantini (c. 1600–1675)
 Giovanni Felice Sances (c. 1600 – 1679)
 Marco Scacchi (c. 1600 – 1681/1687)
 Michelangelo Rossi (c. 1601 – 1656)
@@ -1621,7 +1362,7 @@ Giovanni Battista Somis (1686–1763)
 Francesco Geminiani (1687–1762)
 Domenico Zipoli (1688–1726)
 Pietro Baldassare (before 1690 – after 1768)
-Giovanni Antonio Giai (Giay, Giaj) (1690–1764)
+Giovanni Antonio Giai (1690–1764), aka:(Giovanni Antonio Giay), aka:(Giovanni Antonio Giaj) 
 Francesco Maria Veracini (1690–1768)
 Leonardo Vinci (c. 1690 – 1730)
 Francesco Feo (1691–1761)
@@ -1632,17 +1373,17 @@ Pietro Locatelli (1695–1764)
 Giuseppe Sammartini (1695–1750)
 Alphonsus Maria de' Liguori (1696–1787)
 Pietro Auletta (c. 1698 – 1771)
-Alessandro Toeschi (de) (1700–1758)
+Alessandro Toeschi (1700–1758)
 Giovanni Giorgi (fl. from 1719; d. 1762)
 Giovanni Zamboni (fl. early 18th century)
 Matteo Zocarini (fl. 1740)
 Giovanni Battista Pergolesi (1710–1736)
-Classical era[edit]
+#Period: Classical
 Giovanni Battista Sammartini (c. 1700 – 1775)
 Alessandro Besozzi (1702–1775)
 Andrea Bernasconi (c. 1706 – 1784)
 Baldassare Galuppi (1706–1785)
-Giovanni Battista Martini (Padre Martini) (1706–1784)
+Giovanni Battista Martini (1706–1784), aka:(Padre Martini)
 Domenico Alberti (c. 1710 – 1740)
 Giuseppe Bonno (1711–1788)
 Niccolò Jommelli (1714–1774)
@@ -1665,14 +1406,14 @@ Giuseppe Sarti (1729–1802)
 Domenico Gallo (1730 – c. 1768)
 Pasquale Errichelli (1730–1785)
 Antonio Sacchini (1730–1786)
-Carlo Giuseppe Toeschi (it; es; de; fr; ja) (1731–1788)
+Carlo Giuseppe Toeschi (1731–1788)
 Gaetano Pugnani (1731–1798)
 Giuseppe Demachi (1732 – c. 1791)
-Gian Francesco de Majo ("Ciccio") (1732–1770)
+Gian Francesco de Majo (1732–1770), aka:("Ciccio")
 Giacomo Tritto (1733–1824)
 Antonio Tozzi (1736–1812)
 Tommaso Giordani (c. 1738 – 1806)
-Anna Bon (di Venezia) (c. 1739 – after 1767)
+Anna Bon (c. 1739 – after 1767), aka:(Anna Bon di Venezia) 
 Luigi Gatti (1740–1817)
 Giovanni Paisiello (1740–1816)
 Andrea Luchesi (1741–1801)
@@ -1686,7 +1427,7 @@ Giuseppe Cambini (1746 – c. 1825)
 Domenico Cimarosa (1749–1801)
 Antonio Salieri (1750–1825)
 Bartolomeo Campagnoli (1751–1827)
-Giuseppe Giordani (Giordanello) (1751–1798)
+Giuseppe Giordani (1751–1798), aka:(Giordanello)
 Francesco Bianchi (1752–1810)
 Muzio Clementi (1752–1832)
 Niccolò Antonio Zingarelli (1752–1837)
@@ -1700,7 +1441,7 @@ Domenico Dragonetti (1763–1846)
 Filippo Gragnani (1768–1820)
 Giuseppe Farinelli (1769–1836)
 Gaspare Spontini (1774–1851)
-Romantic[edit]
+#Period: Romantic
 Ferdinando Carulli (1770–1841)
 Mauro Giuliani (1781–1829)
 Carlo Coccia (1782–1873)
@@ -1709,7 +1450,7 @@ Francesco Morlacchi (1784–1841)
 Pietro Raimondi (1786–1853)
 Luigi Legnani (1790–1877)
 Nicola Vaccai (1790–1848)
-Padre Davide da Bergamo (Felice Moretti) (1791–1863)
+Padre Davide da Bergamo (1791–1863), aka:(Felice Moretti)
 Carlo Evasio Soliva (1791–1853)
 Gioacchino Rossini (1792–1868)
 Saverio Mercadante (1795–1870)
@@ -1759,7 +1500,7 @@ Ruggero Leoncavallo (1858–1919)
 Giacomo Puccini (1858–1924)
 Pietro Floridia (1860–1932)
 Alberto Franchetti (1860–1942)
-Modern/Contemporary[edit]
+#Period: Modern
 Marco Enrico Bossi (1861–1925)
 Pietro Mascagni (1863–1945)
 Franco Leoni (1864–1949)
@@ -1787,7 +1528,7 @@ Carlo Giorgio Garofalo (1886–1962)
 Pietro Yon (1886–1943)
 Giulia Recli (1890–1970)
 Giorgio Federico Ghedini (1892–1965)
-Elsa Respighi (née Olivieri-Sangiacomo) (1894–1996)
+Elsa Respighi (1894–1996), aka:(Elsa Olivieri-Sangiacomo)
 Mario Castelnuovo-Tedesco (1895–1968)
 Aldo Finzi (1897–1945)
 Vittorio Rieti (1898–1994)
@@ -1826,11 +1567,11 @@ Carlo Pedini (born 1956)
 Piero Niro (born 1957)
 Giulio Castagnoli (born 1958)
 Marco Stroppa (born 1959)
-Riccardo Nova (it) (born 1960)
+Riccardo Nova (born 1960)
 Fausto Romitelli (1963–2004)
 Marco Ambrosini (born 1964)
 Marco Betta (born 1964)
-Giovanni Verrando (it) (born 1965)
+Giovanni Verrando (born 1965)
 Roberto Carnevale (born 1966)
 Paolo Longo (born 1967)
 Salvatore Di Vittorio (born 1967)
@@ -1838,10 +1579,10 @@ Giovanni Allevi (born 1969)
 Carlo Forlivesi (born 1971)
 
 #Nationality: Russian
-Baroque[edit]
+#Period: Baroque
 Nikolay Diletsky (c. 1630 – after 1680)
 Vasily Polikarpovich Titov (c. 1650 – c. 1715)
-Classical era[edit]
+#Period: Classical
 Yekaterina Sinyavina (died 1784)
 Grigory Teplov (1711/1717–1779)
 Gregory Skovoroda (1722–1794)
@@ -1859,7 +1600,7 @@ Natalia Ivanovna Kurakina (1766–1831)
 Artemy Vedel (c. 1767 – 1808)
 Alexey Nikolayevich Titov (1769–1827)
 Avdotia Ivanova (born 1771)
-Romantic[edit]
+#Period: Romantic
 Ekaterina Likoshin (1780–1840)
 Alexander Alyabyev (1787–1851)
 Oleksandr Ivanovych Lyzohub (1790–1839)
@@ -1921,7 +1662,7 @@ Serge Koussevitzky (1874–1951)
 Reinhold Glière (1875–1956)
 Fyodor Akimenko (1876–1945)
 Yuliya Veysberg (1878/80 – 1942)
-Modern/contemporary[edit]
+#Period: Modern
 Pavel Chesnokov (1877–1944)
 Alexander Goedicke (1877–1957)
 Nikolai Medtner (1880–1951)
@@ -2029,7 +1770,7 @@ Lev Zhurbin (born 1978)
 Dmitry Lubenskiy (born 1979)
 
 #Nationality: Spanish
-Renaissance[edit]
+#Period: Renaissance
 Juan Cornago (1400-1475)
 Bartolomé Ramos de Pareja (1440-1522)
 Francisco de la Torre (1460-1504)
@@ -2051,7 +1792,7 @@ Tomás Luis de Victoria (1548-1611)
 Francisco Guerrero (1528-1599)
 Sebastián de Vivanco (1551-1622)
 Ginés de Morata (1576?)
-Baroque[edit]
+#Period: Baroque
 Joan Pau Pujol (1570-1626)
 Juan Pérez Bocanegra (1598-1645)
 Carlos Patiño (1600-1675)
@@ -2070,7 +1811,7 @@ Francisco Guerau (1649-1717/1722)
 José de Torres y Martínez Bravo (1665-1738)
 Antonio de Literes (1673-1747)
 Santiago de Murcia (1673-1739)
-Classical era[edit]
+#Period: Classical
 Joan Baptista Pla (1720-1773)
 Antonio Rodríguez de Hita (1722-1787)
 Luis Misón (1727-1776)
@@ -2080,7 +1821,7 @@ Juan Sesé y Balaguer (1736-1801)
 Manuel Blasco de Nebra (1750-1784)
 Vicente Martín y Soler (1754-1806)
 Mateo Albéniz (1755-1831)
-Romantic[edit]
+#Period: Romantic
 Fernando Sor (1778-1839)
 Ramón Carnicer (1789-1855)
 Pedro Albéniz (1795-1855)
@@ -2099,7 +1840,7 @@ Isaac Albéniz (1860-1909)
 Enrique Fernández Arbós (1863-1939)
 Antonio Álvarez Alonso (1867-1903)
 Enrique Granados (1867-1916)
-Modern/Contemporary[edit]
+#Period: Modern
 Vicente Lleó (1870-1922)
 Amadeo Vives (1871-1932)
 Eduardo Torres (1872-1934)
@@ -2159,9 +1900,9 @@ Octavio Vazquez (born 1972)
 Javier Pérez Garrido (born 1985)
 
 #Nationality: American
-Baroque[edit]
+#Period: Baroque
 Charles Theodore Pachelbel (1690–1750)
-Classical era[edit]
+#Period: Classical
 John Antes (1740–1811)
 William Billings (1746–1800)
 Justin Morgan (1747–1798)
@@ -2174,7 +1915,7 @@ Samuel Adams Holyoke (1762–1820)
 Oliver Holden (1765–1844)
 Benjamin Carr (1768–1831)
 James Hewitt (1770–1827)
-Romantic[edit]
+#Period: Romantic
 Anthony Philip Heinrich (1781–1861)
 Lowell Mason (1792–1872)
 Francis Boott (1813–1904)
@@ -2230,7 +1971,7 @@ Margaret Ruthven Lang (1867–1972)
 Charles Sanford Skilton (1868–1941)
 Harry Lawrence Freeman (1869–1954)
 Victor Harris (1869–1943)
-Modern/contemporary[edit]
+#Period: Modern
 Scott Joplin (1867/68–1917)
 Joseph Carl Breil (1870–1926)
 Howard Brockway (1870–1951)

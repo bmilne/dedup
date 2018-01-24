@@ -1,3 +1,4 @@
+#Renaissance
 #Group: Burgundian School
 #Description: The Burgundian School was a group of composers active in the 15th century in what is now northern and eastern France, Belgium, and the Netherlands, centered on the court of the Dukes of Burgundy. The school also included some English composers at the time when part of modern France was controlled by England. The Burgundian School was the first phase of activity of the Franco-Flemish School, the central musical practice of the Renaissance in Europe.
 Johannes Tapissier (c.1370–c.1410)
@@ -23,7 +24,7 @@ Jacobus Vide (fl. 1405–1433)
 #Group: Franco-Flemish School
 #Description The Franco-Flemish School refers, somewhat imprecisely, to the style of polyphonic vocal music composition in Europe in the 15th and 16th centuries. See Renaissance music for a more detailed description of the style. The composers of this time and place, and the music they produced, are also known as the Dutch School. However, this is a misnomer, since Dutch (as well as The Netherlands) now refers to the northern Low Countries. The reference is to modern Belgium, northern France and the south of the modern Netherlands. Most artists were born in Hainaut, Flanders and Brabant.
 Thomas Fabri (1380–1420)
-Johannes de Limburgia (fl. 1408–1431), also spelled Lymburgia; also called Johannes Vinandi
+Johannes de Limburgia (fl. 1408–1431) aka:'Johannes de Lymburgia', aka:'Johannes Vinandi'
 Clement Liebert (fl. 1433–1454)
 Johannes Ockeghem (c. 1410–1497)
 Johannes Regis (c. 1425–c. 1496)
@@ -49,7 +50,7 @@ Johannes Prioris (c. 1460?–c. 1514)
 Antonius Divitis (c. 1470–c. 1530)
 Johannes Ghiselin (fl. 1491–1507)
 Nicolas Champion (c. 1475–1533)
-Jacotin (died 1529), also called Jacob Godebrye
+Jacotin (died 1529), aka:'Jacob Godebrye'
 Noel Bauldeweyn (c. 1480–after 1513)
 Jean Richafort (c. 1480–1547)
 Benedictus Appenzeller (1480 to 1488–after 1558), served Mary of Hungary for most of his career
@@ -69,10 +70,10 @@ Jacquet de Berchem (c. 1505–before 1567), early madrigalist
 Jean de Latre (c. 1505/1510–1569)
 Johannes Lupi (c. 1506–1539)
 Jacques Arcadelt (c. 1507–1568), most famous of the early madrigalists
-Tielman Susato (c. 1510/15–after 1570), also spelled Tylman; was also an influential music publisher
+Tielman Susato (c. 1510/15–after 1570), aka:'Tylman Susato', was also an influential music publisher
 Jheronimus Vinders (fl. 1525–1526), active at Ghent; influenced by Josquin
 Jean Courtois (fl. 1530–1545), Flemish or French, active at Cambrai
-Jacob Clemens non Papa (c. 1510/1515–c. 1555), also known as Jacques Clément
+Jacob Clemens non Papa (c. 1510/1515–c. 1555), aka:'Jacques Clément'
 Ghiselin Danckerts (c. 1510–c. 1565), active in Rome
 Pierre de Manchicourt (c. 1510–1564), active in Spain
 Jan Nasco (c. 1510–1561), active in northern Italy
@@ -89,9 +90,9 @@ Jean de Bonmarché (c. 1525–1570)
 Jacobus Vaet (c. 1529–1567)
 Cornelis Symonszoon Boscoop (before 1531–1573)
 Jacobus de Kerle (1531/1532–1591)
-Orlande de Lassus (c. 1532–1594), also Orlando di Lasso, Roland de Lassus
+Orlande de Lassus (c. 1532–1594), aka:'Orlando di Lasso', aka:'Roland de Lassus'
 Giaches de Wert (1535–1596), active in Italy
-Johannes Matelart (before 1538–1607), or Ioanne Matelart
+Johannes Matelart (before 1538–1607), aka:'Ioanne Matelart'
 Jhan Gero (fl. 1540–1555), active in Venice, Italy
 Jacob Regnart (1540s–1599)
 Andreas Pevernage (1542/3–1591)
@@ -115,7 +116,7 @@ Claudio Pari (1574–after 1619), active in Italy
 #Description: "France" here does not refer to the France of today, but a smaller region of French-speaking people separate from the area controlled by the Duchy of Burgundy. In medieval times, France was the centre of musical development with the Notre Dame school and Ars nova; this was later surpassed by the Burgundian School, but France remained a leading producer of choral music throughout the Renaissance.
 Richard Loqueville (died 1418)
 Baude Cordier (c. 1380–before 1440)
-Beltrame Feragut (c. 1385–c. 1450), also known as Bertrand di Vignone
+Beltrame Feragut (c. 1385–c. 1450), aka:'Bertrand di Vignone'
 Johannes Cesaris (fl. c. 1406–1417)
 Estienne Grossin (fl. 1418–1421)
 Johannes Fedé (c. 1415–1477?)
@@ -134,15 +135,15 @@ Pietrequin Bonnel (fl. 1488–c. 1499)
 Carpentras (c. 1470–1548)
 Antoine de Févin (c. 1470–1511/12), brother of Robert de Févin
 Pierrequin de Thérache (c. 1470–1528), active in Lorraine
-Jean Braconnier ('fl. from 1478; died 1512), also known as Lourdault
+Jean Braconnier ('fl. from 1478; died 1512), aka:'Lourdault'
 Philippe Verdelot (c. 1475–before 1552), active in Italy
 Ninot le Petit (fl. c. 1500–1520)
 Antoine de Longueval (fl. 1498–1525)
 Nicolle des Celliers de Hesdin (died 1538)
-Jean l'Héritier (c. 1480–after 1551), also spelled Heretier, Lhéritier, Lirithier
+Jean l'Héritier (c. 1480–after 1551), aka:'Jean l'Heretier', aka:'Jean Lhéritier', aka:'Jean Lirithier'
 Jacquet of Mantua (1483–1559)
 Clément Janequin (c. 1485–1558)
-Sandrin (c. 1490–c. 1560), also known as Pierre Regnault
+Sandrin (c. 1490–c. 1560), aka:'Pierre Regnault'
 Claudin de Sermisy (c. 1490–1562)
 Pierre Attaingnant (c. 1494–1551/1552), best known as a printer, especially of Parisian chansons
 Pierre Vermont (c. 1495–between 1527 and 1533)
@@ -206,16 +207,15 @@ Mlle Bocquet (early 17th century – after 1660)
 #Description: After the Burgundian School came to an end, Italy became the leading exponent of renaissance music and continued its innovation with, for example, the Venetian and (somewhat more conservative) Roman Schools of composition. In particular the Venetian School's polychoral compositions of the late 16th century were among the most famous musical events in Europe, and their influence on musical practice in other countries was enormous. The innovations introduced by the Venetian School, along with the contemporary development of monody and opera in Florence, together define the end of the musical Renaissance and the beginning of the musical Baroque.
 Zacara da Teramo (1350/60–1413/16)
 Paolo da Firenze (c. 1355 – c. 1436; a.k.a. Paolo Tenorista)
-Giovanni Mazzuoli (Giovanni degli Organi) (1360–1426), also known as Jovannes de Florentia, Giovanni degli Organi and Giovanni di Niccol
-Piero Mazzuoli (Son of Giovanni Mazzuoli, whose compositions are all found in the San Lorenzo palimpsest)
+Giovanni Mazzuoli (1360–1426), aka: 'Jovannes de Florentia', aka:'Giovanni degli Organi', aka: 'Giovanni di Niccol'
 Matteo da Perugia (fl. 1400–1416)
-Antonio da Cividale (fl.c. 1392–1421), also known as Antonius de Civitate Austrie
+Antonio da Cividale (fl.c. 1392–1421), aka:'Antonius de Civitate Austrie'
 Antonello da Caserta (14th century–after 1402)
 Nicolaus Ricii de Nucella Campli (fl. 1401-1420; d.after 1436)
-Ugolino da Forlì (1380–1457), also known as Ugolino da Orvieto
+Ugolino da Forlì (1380–1457), aka:'Ugolino da Orvieto'
 Antonius Romanus (fl. 1400–1432)
 Bartolomeo da Bologna (fl. 1405–1427)
-Grazioso da Padova (fl. 1390?–1410?), also known as Gratiosus de Padua
+Grazioso da Padova (fl. 1390?–1410?), aka:'Gratiosus de Padua'
 Nicolaus Zacharie (c. 1400 or before–1466)
 Johannes de Quadris (c. 1410–? 1457)
 Guglielmo Ebreo da Pesaro (c. 1420–1484), dance master
@@ -245,11 +245,11 @@ Francesco de Layolle (1492–c. 1540), Florentine composer, in the employ of the
 Costanzo Festa (c. 1495–1545), early composer of madrigals; member of Sistine Chapel choir
 Francesco Canova da Milano (1497–1543)
 Mattio Rampollini (1497–c. 1553)
-Albert de Rippe (c. 1500–1551), also known as Alberto da Ripa and da Mantova
+Albert de Rippe (c. 1500–1551), aka:'Alberto da Ripa' aka:'da Mantova'
 Francesco Corteccia (1502–1571)
-Ambrose Lupo (1505–1591), also known as Ambrosio Lupo, de Almaliach and Lupus Italus; active in England
+Ambrose Lupo (1505–1591), aka:'Ambrosio Lupo', aka:'de Almaliach',  aka:'Lupus Italus'; active in England
 Francesco Viola (died 1568), Maestro di cappella at Ferrara after Rore
-Paolo Aretino (1508–1584), also known as Paolo Antonio del Bivi
+Paolo Aretino (1508–1584), aka:'Paolo Antonio del Bivi'
 Alfonso dalla Viola (c. 1508–c. 1573), also an instrumentalist; active in Ferrara
 Antonio Gardano (1509–1569), music printer
 Giovanni Thomaso Cimello (c. 1510–after 1579), or Giovanthomaso Cimello
@@ -306,15 +306,15 @@ Alessandro Striggio (c. 1540–1592), musician to the Medici; composer of the co
 Tiburzio Massaino (before 1550–after 1608)
 Vincenzo Bellavere (c. 1540/1541–1587)
 Francesco Rovigo (1540/1541–1597), composed liturgical music and madrigals; active at Mantua and Graz
-Gioseffo Guami (1542–1611), also known as Gioseffo da Lucca
+Gioseffo Guami (1542–1611), aka:'Gioseffo da Lucca'
 Alfonso Ferrabosco the elder (1543–1588), active in England
-Giovanni Maria Nanino (1543/1544–1607), also spelled Nanini; brother of Giovanni Bernardino Nanino
+Giovanni Maria Nanino (1543/1544–1607), aka:'Giovanni Maria Nanini'; brother of Giovanni Bernardino Nanino
 Francesco Guami (c. 1544–1602), brother of Gioseffo Guami; active in Germany and Italy
 Ascanio Trombetti (1544–1590)
 Gioseppe Caimo (c. 1545–1584), active at Milan; madrigalist and organist
 Luzzasco Luzzaschi (c. 1545–1607), late madrigalist at Ferrara
 Francesco Soriano (c. 1548–1621)
-Girolamo Dalla Casa (fl. from 1568; died 1601)
+Girolamo Dalla Casa (fl. from 1568-1601)
 Ippolito Baccusi (c. 1550–1609)
 Emilio de' Cavalieri (c. 1550–1602)
 Cesario Gussago (c. 1550–1612)
@@ -351,7 +351,7 @@ Antonio Il Verso (c. 1560 – 1621)
 Stefano Rossetto (fl. 1560–1580), active in Italy and Germany
 Leone Leoni (c. 1560 – 1627), maestro di cappella at Vicenza
 Jacopo Peri (1561–1633)
-Francesco Usper (c. 1561 – 1641), also known as Spongia
+Francesco Usper (c. 1561 – 1641), aka:'Spongia'
 Francisco de Peraza (c. 1564 – c. 1600)
 Giulio Cesare Martinengo (1564 or 1568–1613)
 Erasmo Marotta (1565–1641), Sicilian composer
@@ -483,15 +483,15 @@ Mogens Pedersøn (c. 1583 – 1623)
 Mikołaj Radomski (1380-15th century)
 Jerzy Liban z Legnicy (1464 – after 1546)
 Mikołaj z Chrzanowa (1485–1555)
-Sebastian z Felsztyna (c. 1490 – 1543), also known as Sebastian Herburt
+Sebastian z Felsztyna (c. 1490 – 1543), aka:'Sebastian Herburt'
 Jan z Lublina (late 15th century – 1540)
 Wacław z Szamotuł (c. 1520 – c. 1560)
 Cyprian Bazylik (c. 1535 – c. 1600)
 Mikołaj Gomółka (c. 1535 – c. 1609)
 Krzysztof Borek (? – 1573)
-Marcin Leopolita (c. 1540 – c. 1584), also known as Marcin ze Lwowa
-Jakub Polak (c. 1545 – 1605), also known as Jacob Polonais, Jakub Reys, Jacques le Polonois and Jacob de Reis; active in France
-Nicolaus Cracoviensis (first half of the 16th century), also known as Mikołaj z Krakowa
+Marcin Leopolita (c. 1540 – c. 1584), aka:'Marcin ze Lwowa'
+Jakub Polak (c. 1545 – 1605), aka:'Jacob Polonais', aka:'Jakub Reys', aka:'Jacques le Polonois', aka:'Jacob de Reis'; active in France
+Nicolaus Cracoviensis (first half of the 16th century), aka:'Mikołaj z Krakowa'
 Tomasz Szadek (c. 1550 – 1612) (nl:Tomasz Szadek pl:Tomasz Szadek)
 Krzysztof Klabon (c. 1550 – 1616)
 Marcin Wartecki (second half of the 16th century)
@@ -524,7 +524,7 @@ Bálint Bakfark (1507–1576)
 Sebestyén Tinódi, Lantos (c. 1510–1556)
 
 #Group: Slovenian
-Jacobus Gallus (1550–1591), also known as Jacob Handl; active in Moravia and Bohemia
+Jacobus Gallus (1550–1591), aka:'Jacob Handl'; active in Moravia and Bohemia
 
 #Group: Croatian
 Ivan Lukačić (1587–1648)
@@ -672,14 +672,14 @@ Thomas Ashwell (c. 1478–after 1513)
 John Baldwin (before 1560–1615)
 John Baxter (fl. 1609)
 John Bedingham (died c.1459/1460)
-John Benet (fl. 1420–1450) ([1])
+John Benet (fl. 1420–1450)
 John Bennet (c. 1575–after 1614)
 William Brade (1560–1630)
 John Browne (fl. c. 1490)
 John Bull (1562–1628)
 William Byrd (c. 1540–1623)
 Thomas Campion (1567–1620)
-J. Cooke, probably John Cooke (fl. 1417) ([2])
+J. Cooke, probably John Cooke (fl. 1417)
 John Cooper (c. 1570–1626)
 William Cornysh (1465–1523)
 Francis Cutting (1583–1603)
@@ -735,8 +735,8 @@ Robert White (c. 1538–1574)
 John Wilbye (1574–1638)
 
 #Group: Welsh
-John Lloyd (c. 1480 – 1523), also known as John Lloidd, Floyd; active in England; works include the complex Mass on O quam suavis
-Philip ap Rhys (fl. 1545–1560), probably Welsh; also known as Philip Ryce
+John Lloyd (c. 1480 – 1523), aka:'John Lloidd', aka:'Floyd'; active in England; works include the complex Mass on O quam suavis
+Philip ap Rhys (fl. 1545–1560); aka:'Philip Ryce', probably Welsh
 
 #Group: Scottish
 Robert Johnson (c. 1470 – after 1554), active in England and Scotland
